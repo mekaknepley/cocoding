@@ -1,0 +1,20 @@
+{
+  "name": "cocoding",
+  "version": "1.0.0",
+  "description": "project2",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mekaknepley/cocoding.git"
+  },
+  "author": "meka,shelby,jaycen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mekaknepley/cocoding/issues"
+  },
+  "homepage": "https://github.com/mekaknepley/cocoding#readme"
+}
