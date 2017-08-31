@@ -16,5 +16,13 @@
   "bugs": {
     "url": "https://github.com/mekaknepley/cocoding/issues"
   },
-  "homepage": "https://github.com/mekaknepley/cocoding#readme"
+  "homepage": "https://github.com/mekaknepley/cocoding#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "express-handlebars": "^3.0.0",
+    "http": "0.0.0",
+    "method-override": "^2.3.9",
+    "socket.io": "^2.0.3"
+  }
 }
