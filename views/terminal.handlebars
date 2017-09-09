@@ -9,18 +9,21 @@
 </form>
 <!------------------------------------------------------------shelby------------------------------------------------->
 <!-- Navbar Start -->
-<nav class="blue-grey darken-3 z-depth-5" role="navigation">
-    <div class="nav-wrapper container">
-        <a id="logo-container" href="#" class="brand-logo"><i class="large material-icons left">code</i>coCoding Live</a>
-        <ul class="right hide-on-med-and-down">
-            <li><a href="sass.html"><i class="material-icons left">person</i>Username</a></li>
-            <li><a class="waves-effect waves-light btn-tiny"><i class="material-icons left">lock</i>Sign Out</a>
-        </ul>
-        <ul id="nav-mobile" class="side-nav">
-            <li><a href="sass.html"><i class="material-icons left">person</i>Username</a></li>
-            <li><a class="waves-effect waves-light btn-tiny"><i class="material-icons left">lock</i>Sign Out</a>
-        </ul>
-        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+<nav class="blue-grey darken-4">
+    <div class="nav-wrapper">
+        <div id="navPosition">
+            <img id="robotsSize"src="img/logorobot.png" alt="robotlogo">
+            <a id="logo-container " href="#" class="brand-logo">coCodingLive</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <!--<li><a href="#">Companies</a></li>-->
+                <li><a href="#">{{username}} is signed In</a></li>
+                <li><a class="btn modal-trigger" data-target="loginModal" href="#loginModal">Sign Out</a></li>
+            </ul>
+            <!--<ul id="nav-mobile" class="side-nav">-->
+            <!--<li><a class="btn modal-trigger" data-target="loginModal" href="#loginModal">Login</a></li>-->
+            <!--</ul>-->
+            <!--<a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>-->
+        </div>
     </div>
 </nav>
 <!-- Navbar End -->
@@ -37,15 +40,16 @@
                         <ul>
                             <li>From my files</li>
                             <li>From Classroom</li>
-                            <ul>
+                        </ul>
                     </div>
+                </li>
                 <li>
                     <div class="collapsible-header waves-effect waves-teal"><i class="material-icons">list</i>Save</div>
                     <div class="collapsible-body">
                         <ul>
                             <li>Save as...</li>
                             <li>Save</li>
-                            <ul>
+                        </ul>
                     </div>
                 </li>
                 <li>
@@ -54,8 +58,9 @@
                         <ul>
                             <li>With everyone</li>
                             <li>Email</li>
-                            <ul>
+                        </ul>
                     </div>
+                </li>
                 <li>
                     <div class="collapsible-header waves-effect waves-teal"><i class="material-icons">list</i>A-C</div>
                     <div class="collapsible-body">

@@ -1,3 +1,5 @@
 node_modules
 .idea
 .DS_Store
+rethinkdb-2.3.6
+rethinkdb-2.3.3.tgz
