@@ -1,43 +1,370 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <title>coCodingLive</title>
-
-    <!-- CSS  -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
-    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-</head>
-<body>
-
 {{username}} Logged In!
 
 <form class="logoutForm" action="/logout" method="GET">
     <button type="submit">LOG OUT</button>
 </form>
-
-<style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body { font: 13px Helvetica, Arial; }
-    #chatForm { background: #000; padding: 3px; position: fixed; bottom: 0; width: 100%; }
-    #chatForm input { border: 0; padding: 10px; width: 90%; margin-right: .5%; }
-    #chatForm button { width: 9%; background: rgb(130, 224, 255); border: none; padding: 10px; }
-    .tempLoginForm input { width: 200px; height:25px; }
-    #messages { list-style-type: none; margin: 0; padding: 0; }
-    #messages li { padding: 5px 10px; }
-    #messages li:nth-child(odd) { background: #eee; }
-</style>
-
 <ul id="messages"></ul>
 <form id="chatForm" action="">
     <input id="m" autocomplete="off" /><button>Send</button>
 </form>
-
+<!------------------------------------------------------------shelby------------------------------------------------->
+<!-- Navbar Start -->
+<nav class="blue-grey darken-3 z-depth-5" role="navigation">
+    <div class="nav-wrapper container">
+        <a id="logo-container" href="#" class="brand-logo"><i class="large material-icons left">code</i>coCoding Live</a>
+        <ul class="right hide-on-med-and-down">
+            <li><a href="sass.html"><i class="material-icons left">person</i>Username</a></li>
+            <li><a class="waves-effect waves-light btn-tiny"><i class="material-icons left">lock</i>Sign Out</a>
+        </ul>
+        <ul id="nav-mobile" class="side-nav">
+            <li><a href="sass.html"><i class="material-icons left">person</i>Username</a></li>
+            <li><a class="waves-effect waves-light btn-tiny"><i class="material-icons left">lock</i>Sign Out</a>
+        </ul>
+        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+</nav>
+<!-- Navbar End -->
+<!-- Main Body Start -->
+<div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+        <!-- Sidebar Start -->
+        <ul id="slide-out" class="side-nav">
+            <h4>Languages</h4>
+            <ul class="collapsible popout" data-collapsible="accordion">
+                <li>
+                    <div class="collapsible-header waves-effect waves-teal"><i class="material-icons">list</i>Open</div>
+                    <div class="collapsible-body">
+                        <ul>
+                            <li>From my files</li>
+                            <li>From Classroom</li>
+                            <ul>
+                    </div>
+                <li>
+                    <div class="collapsible-header waves-effect waves-teal"><i class="material-icons">list</i>Save</div>
+                    <div class="collapsible-body">
+                        <ul>
+                            <li>Save as...</li>
+                            <li>Save</li>
+                            <ul>
+                    </div>
+                </li>
+                <li>
+                    <div class="collapsible-header waves-effect waves-teal"><i class="material-icons">list</i>Share</div>
+                    <div class="collapsible-body">
+                        <ul>
+                            <li>With everyone</li>
+                            <li>Email</li>
+                            <ul>
+                    </div>
+                <li>
+                    <div class="collapsible-header waves-effect waves-teal"><i class="material-icons">list</i>A-C</div>
+                    <div class="collapsible-body">
+               <span>
+               <ul class="languages">
+               <li><a href="#js">APL</a></li>
+               <li><a href="#js">ASN.1</a></li>
+               <li><a href="#js">Asterisk dialplan</a></li>
+               <li><a href="#js">Brainfuck</a></li>
+               <li><a href="#js">C</a></li>
+               <li><a href="#js">C++</a></li>
+               <li><a href="#js">C#</a></li>
+               <li><a href="#js">Ceylon</a></li>
+               <li><a href="#js">Clojure</a></li>
+               <li><a href="#js">Closure Stylesheets</a></li>
+               <li><a href="#js">CMake</a></li>
+               <li><a href="#js">COBOL</a></li>
+               <li><a href="#js">CoffeeScript</a></li>
+               <li><a href="#js">Common Lisp</a></li>
+               <li><a href="#js">Crystal</a></li>
+               <li><a href="#js">CSS</a></li>
+               <li><a href="#js">Cypher</a></li>
+               <li><a href="#js">Cython</a></li>
+               </ul>
+               </span>
+                    </div>
+                </li>
+                <li>
+                    <div class="collapsible-header waves-effect waves-teal"><i class="material-icons">list</i>D-F</div>
+                    <div class="collapsible-body">
+               <span>
+               <ul class="languages">
+               <li><a href="#js">D</a></li>
+               <li><a href="#js">Dart</a></li>
+               <li><a href="#js">Django</a></li>
+               <li><a href="#js">Dockerfile</a></li>
+               <li><a href="#js">diff</a></li>
+               <li><a href="#js">DTD</a></li>
+               <li><a href="#js">Dylan</a></li>
+               <li><a href="#js">EBNF</a></li>
+               <li><a href="#js">ECL</a></li>
+               <li><a href="#js">Eiffel</a></li>
+               <li><a href="#js">Elixir</a></li>
+               <li><a href="#js">Elm</a></li>
+               <li><a href="#js">Erlang</a></li>
+               <li><a href="#js">Factor</a></li>
+               <li><a href="#js">FCL</a></li>
+               <li><a href="#js">Forth</a></li>
+               <li><a href="#js">Fortran</a></li>
+               <li><a href="#js">F#</a></li>
+               </ul>
+               </span>
+                    </div>
+                </li>
+                <li>
+                    <div class="collapsible-header waves-effect waves-teal"><i class="material-icons">list</i>G-J</div>
+                    <div class="collapsible-body">
+               <span>
+               <ul class="languages">
+               <li><a href="#js">Gas</a></li>
+               <li><a href="#js">Gherkin</a></li>
+               <li><a href="#js">Go</a></li>
+               <li><a href="#js">Groovy</a></li>
+               <li><a href="#js">HAML</a></li>
+               <li><a href="#js">Handlebars</a></li>
+               <li><a href="#js">Haskell</a></li>
+               <li><a href="#js">Haxe</a></li>
+               <li><a href="#js">HTML (JSP,ASP.net)</a></li>
+               <li><a href="#js">HTML mix-mode</a></li>
+               <li><a href="#js">HTTP</a></li>
+               <li><a href="#js">IDL</a></li>
+               <li><a href="#js">Java</a></li>
+               <li><a href="#js">JavaScript</a></li>
+               <li><a href="#js">Jinja2</a></li>
+               <li><a href="#js">Julia</a></li>
+               </ul>
+               </span>
+                    </div>
+                </li>
+                <li>
+                    <div class="collapsible-header waves-effect waves-teal"><i class="material-icons">list</i>K-O</div>
+                    <div class="collapsible-body">
+               <span>
+               <ul class="languages">
+               <li><a href="#js">Kotlin</a></li>
+               <li><a href="#js">LESS</a></li>
+               <li><a href="#js">LiveScript</a></li>
+               <li><a href="#js">Lua</a></li>
+               <li><a href="#js">Markdown</a></li>
+               <li><a href="#js">Mathematica</a></li>
+               <li><a href="#js">mbox</a></li>
+               <li><a href="#js">mIRC</a></li>
+               <li><a href="#js">Modelica</a></li>
+               <li><a href="#js">MscGen</a></li>
+               <li><a href="#js">MUMPS</a></li>
+               <li><a href="#js">Nginx</a></li>
+               <li><a href="#js">NSIS</a></li>
+               <li><a href="#js">N-Triples/N-Quads</a></li>
+               <li><a href="#js">Objective C</a></li>
+               <li><a href="#js">OCaml</a></li>
+               <li><a href="#js">Octave</a></li>
+               <li><a href="#js">Oz</a></li>
+               </ul>
+               </span>
+                    </div>
+                <li>
+                    <div class="collapsible-header waves-effect waves-teal"><i class="material-icons">list</i>P-R</div>
+                    <div class="collapsible-body">
+               <span>
+               <ul class="languages">
+               <li><a href="#js">Pascal</a></li>
+               <li><a href="#js">PEG.js</a></li>
+               <li><a href="#js">Perl</a></li>
+               <li><a href="#js">PGP</a></li>
+               <li><a href="#js">PHP</a></li>
+               <li><a href="#js">Pig Latin</a></li>
+               <li><a href="#js">PowerShell</a></li>
+               <li><a href="#js">Properties files</a></li>
+               <li><a href="#js">ProtoBuf</a></li>
+               <li><a href="#js">Pug</a></li>
+               <li><a href="#js">Puppet</a></li>
+               <li><a href="#js">Python</a></li>
+               <li><a href="#js">Q</a></li>
+               <li><a href="#js">R</a></li>
+               <li><a href="#js">RPM</a></li>
+               <li><a href="#js">reStructuredText</a></li>
+               <li><a href="#js">Ruby</a></li>
+               <li><a href="#js">Rust</a></li>
+               </ul>
+               </span>
+                    </div>
+                </li>
+                <li>
+                    <div class="collapsible-header waves-effect waves-teal"><i class="material-icons">list</i>S</div>
+                    <div class="collapsible-body">
+               <span>
+               <ul class="languages">
+               <li><a href="#js">SAS</a></li>
+               <li><a href="#js">Sass</a></li>
+               <li><a href="#js">Spreadsheet</a></li>
+               <li><a href="#js">Scala</a></li>
+               <li><a href="#js">Scheme</a></li>
+               <li><a href="#js">SCSS</a></li>
+               <li><a href="#js">Shell</a></li>
+               <li><a href="#js">Sieve</a></li>
+               <li><a href="#js">Slim</a></li>
+               <li><a href="#js">Smalltalk</a></li>
+               <li><a href="#js">Smarty</a></li>
+               <li><a href="#js">Soir</a></li>
+               <li><a href="#js">Soy</a></li>
+               <li><a href="#js">Stylus</a></li>
+               <li><a href="#js">SQL</a></li>
+               <li><a href="#js">SPARQL</a></li>
+               <li><a href="#js">Squirrel</a></li>
+               <li><a href="#js">Swift</a></li>
+               <li><a href="#js">sTex LaTeX</a></li>
+               </ul>
+               </span>
+                    </div>
+                </li>
+                <li>
+                    <div class="collapsible-header waves-effect waves-teal"><i class="material-icons">list</i>T-Z</div>
+                    <div class="collapsible-body">
+               <span>
+               <ul class="languages">
+               <li><a href="#js">Tcl</a></li>
+               <li><a href="#js">Textile</a></li>
+               <li><a href="#js">Tiddlywiki</a></li>
+               <li><a href="#js">Tiki wiki</a></li>
+               <li><a href="#js">TOML</a></li>
+               <li><a href="#js">Tornado</a></li>
+               <li><a href="#js">troff</a></li>
+               <li><a href="#js">TTCN</a></li>
+               <li><a href="#js">TTCN Configuration</a></li>
+               <li><a href="#js">Turtle</a></li>
+               <li><a href="#js">Twig</a></li>
+               <li><a href="#js">VB.NET</a></li>
+               <li><a href="#js">VBScript</a></li>
+               <li><a href="#js">Velocity</a></li>
+               <li><a href="#js">Verilog</a></li>
+               <li><a href="#js">VHDL</a></li>
+               <li><a href="#js">Vue.js app</a></li>
+               <li><a href="#js">Web IDL</a></li>
+               <li><a href="#js">XML/HTML</a></li>
+               <li><a href="#js">XQuery</a></li>
+               <li><a href="#js">Yacas</a></li>
+               <li><a href="#js">YAML</a></li>
+               <li><a href="#js">YAML frontmatter</a></li>
+               <li><a href="#js">Z80</a></li>
+               <li><a href="#js">zenburn.css</a></li>
+               </ul>
+               </span>
+                    </div>
+                </li>
+            </ul>
+        </ul>
+        <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+        <!-- Sidebar End -->
+        <div class="row center">
+            <!-- Terminal Start -->
+            <div class="header col s8 light z-depth-3 terminal">
+                Terminal
+                <p>Terminal
+                <p>Terminal
+                <p>Terminal
+                <p>Terminal
+                <p>Terminal
+                <p>Terminal
+                <p>Terminal
+            </div>
+            <!-- Terminal End -->
+            <!-- Chat Start -->
+            <div class="header col s3 offset-s1 light z-depth-3 chat">
+                Chat
+                <p>Chat
+                <p>Chat
+                <p>Chat
+                <p>Chat
+            </div>
+            <!-- Chat End -->
+        </div>
+        <div class="row center">
+            <!-- Live Terminal Start -->
+            <div class="header col s8 light z-depth-3 liveTerminal">
+                Live Terminal
+                <p>Live Terminal
+                <p>Live Terminal
+                <p>Live Terminal
+                <p>Live Terminal
+                <p>Live Terminal
+                <p>Live Terminal
+                <p>Live Terminal
+            </div>
+            <!-- Live Terminal End -->
+            <!-- Video Start -->
+            <div class="header col s3 offset-s1 light z-depth-3 video">
+                Video
+                <p>Video
+                <p>Video
+                <p>Video
+                <p>Video
+            </div>
+            <!-- Video End -->
+        </div>
+    </div>
+</div>
+<!--Modal 1 Start for Careers -->
+<div id="careers" class="modal">
+    <div class="modal-content">
+        <h4>Careers</h4>
+        <div class="row">
+            <form class="col s12">
+                <div class="row">
+                    <div class="input-field col s6">
+                        <i class="material-icons prefix">account_circle</i>
+                        <input id="icon_prefix" type="text" class="validate">
+                        <label for="icon_prefix">First Name</label>
+                    </div>
+                    <div class="input-field col s6">
+                        <i class="material-icons prefix">phone</i>
+                        <input id="icon_telephone" type="tel" class="validate">
+                        <label for="icon_telephone">Telephone</label>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!--Modal 1 End for Careers -->
+<!-- Main Body End-->
+<!-- Footer Start -->
+<footer class="page-footer blue-grey darken-3">
+    <div class="container">
+        <div class="row">
+            <div class="col l6 s12">
+                <h5 class="white-text">coCoding Live</h5>
+                <p class="grey-text text-lighten-4">Code with peers from the cloud. Anywhere. Anytime. All tools included.</p>
+            </div>
+            <div class="col l3 s12">
+                <h5 class="white-text">About</h5>
+                <ul>
+                    <li><a class="white-text" href="https://github.com/mekaknepley">Meka</a></li>
+                    <li><a class="white-text" href="https://github.com/jaycen9887">Jacyen</a></li>
+                    <li><a class="white-text" href="https://github.com/shelbina">Shelby</a></li>
+                </ul>
+            </div>
+            <div class="col l3 s12">
+                <h5 class="white-text">Connect</h5>
+                <ul>
+                    <li><a class="white-text" href="https://facebook.com">Facebook</a></li>
+                    <li><a class="white-text" href="https://twitter.com">Twitter</a></li>
+                    <li><a class="white-text modal-trigger" href="#careers"><i class="tiny material-icons left">work</i>Careers</a></li>
+                    <li><a class="white-text modal-trigger" href="https://paypal.com"><i class="tiny material-icons left">monetization_on</i>Donate</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <div class="container">
+            © 2017 coCodingLive
+        </div>
+    </div>
+</footer>
+<!-- Footer End -->
+<!------------------------------------------------------------shelby------------------------------------------------->
 <script src="/socket.io/socket.io.js"></script>
 <script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="materialize.min.js"></script>
 <script>
     var socket = io();
     $(function () {
@@ -51,7 +378,26 @@
     socket.on('chat message', function(msg){
         $('#messages').append($('<li>').text(msg));
     });
+
+//    shelby script
+    // Initialize collapse button
+    $(".button-collapse").sideNav({
+        menuWidth: 200,
+        edge: 'left',
+        closeOnClick: true,
+        draggable: true,
+        onOpen: function(el) {  },
+        onClose: function(el) {  },
+    });
+    //initialize popout
+    $(document).ready(function(){
+        $('.collapsible').collapsible();
+    });
+
+    //modals
+    $(document).ready(function(){
+        // the "href" attribute of the modal trigger must specify the modal ID that wants to be triggered
+        $('.modal').modal();
+    });
 </script>
 
-</body>
-</html>
