@@ -1,0 +1,654 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/Cellar/node/7.7.4/bin/node',
+1 verbose cli   '/usr/local/lib/node_modules/npm/bin/npm-cli.js',
+1 verbose cli   'update',
+1 verbose cli   '--scripts-prepend-node-path=auto' ]
+2 info using npm@4.1.2
+3 info using node@v7.7.4
+4 silly mapToRegistry name bcrypt-nodejs
+5 silly mapToRegistry using default registry
+6 silly mapToRegistry registry https://registry.npmjs.org/
+7 silly mapToRegistry data Result {
+7 silly mapToRegistry   raw: 'bcrypt-nodejs',
+7 silly mapToRegistry   scope: null,
+7 silly mapToRegistry   escapedName: 'bcrypt-nodejs',
+7 silly mapToRegistry   name: 'bcrypt-nodejs',
+7 silly mapToRegistry   rawSpec: '',
+7 silly mapToRegistry   spec: 'latest',
+7 silly mapToRegistry   type: 'tag' }
+8 silly mapToRegistry uri https://registry.npmjs.org/bcrypt-nodejs
+9 silly mapToRegistry name body-parser
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'body-parser',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'body-parser',
+12 silly mapToRegistry   name: 'body-parser',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/body-parser
+14 silly mapToRegistry name express
+15 silly mapToRegistry using default registry
+16 silly mapToRegistry registry https://registry.npmjs.org/
+17 silly mapToRegistry data Result {
+17 silly mapToRegistry   raw: 'express',
+17 silly mapToRegistry   scope: null,
+17 silly mapToRegistry   escapedName: 'express',
+17 silly mapToRegistry   name: 'express',
+17 silly mapToRegistry   rawSpec: '',
+17 silly mapToRegistry   spec: 'latest',
+17 silly mapToRegistry   type: 'tag' }
+18 silly mapToRegistry uri https://registry.npmjs.org/express
+19 silly mapToRegistry name express-handlebars
+20 silly mapToRegistry using default registry
+21 silly mapToRegistry registry https://registry.npmjs.org/
+22 silly mapToRegistry data Result {
+22 silly mapToRegistry   raw: 'express-handlebars',
+22 silly mapToRegistry   scope: null,
+22 silly mapToRegistry   escapedName: 'express-handlebars',
+22 silly mapToRegistry   name: 'express-handlebars',
+22 silly mapToRegistry   rawSpec: '',
+22 silly mapToRegistry   spec: 'latest',
+22 silly mapToRegistry   type: 'tag' }
+23 silly mapToRegistry uri https://registry.npmjs.org/express-handlebars
+24 silly mapToRegistry name express-session
+25 silly mapToRegistry using default registry
+26 silly mapToRegistry registry https://registry.npmjs.org/
+27 silly mapToRegistry data Result {
+27 silly mapToRegistry   raw: 'express-session',
+27 silly mapToRegistry   scope: null,
+27 silly mapToRegistry   escapedName: 'express-session',
+27 silly mapToRegistry   name: 'express-session',
+27 silly mapToRegistry   rawSpec: '',
+27 silly mapToRegistry   spec: 'latest',
+27 silly mapToRegistry   type: 'tag' }
+28 silly mapToRegistry uri https://registry.npmjs.org/express-session
+29 silly mapToRegistry name http
+30 silly mapToRegistry using default registry
+31 silly mapToRegistry registry https://registry.npmjs.org/
+32 silly mapToRegistry data Result {
+32 silly mapToRegistry   raw: 'http',
+32 silly mapToRegistry   scope: null,
+32 silly mapToRegistry   escapedName: 'http',
+32 silly mapToRegistry   name: 'http',
+32 silly mapToRegistry   rawSpec: '',
+32 silly mapToRegistry   spec: 'latest',
+32 silly mapToRegistry   type: 'tag' }
+33 silly mapToRegistry uri https://registry.npmjs.org/http
+34 silly mapToRegistry name method-override
+35 silly mapToRegistry using default registry
+36 silly mapToRegistry registry https://registry.npmjs.org/
+37 silly mapToRegistry data Result {
+37 silly mapToRegistry   raw: 'method-override',
+37 silly mapToRegistry   scope: null,
+37 silly mapToRegistry   escapedName: 'method-override',
+37 silly mapToRegistry   name: 'method-override',
+37 silly mapToRegistry   rawSpec: '',
+37 silly mapToRegistry   spec: 'latest',
+37 silly mapToRegistry   type: 'tag' }
+38 silly mapToRegistry uri https://registry.npmjs.org/method-override
+39 silly mapToRegistry name mysql
+40 silly mapToRegistry using default registry
+41 silly mapToRegistry registry https://registry.npmjs.org/
+42 silly mapToRegistry data Result {
+42 silly mapToRegistry   raw: 'mysql',
+42 silly mapToRegistry   scope: null,
+42 silly mapToRegistry   escapedName: 'mysql',
+42 silly mapToRegistry   name: 'mysql',
+42 silly mapToRegistry   rawSpec: '',
+42 silly mapToRegistry   spec: 'latest',
+42 silly mapToRegistry   type: 'tag' }
+43 silly mapToRegistry uri https://registry.npmjs.org/mysql
+44 silly mapToRegistry name passport
+45 silly mapToRegistry using default registry
+46 silly mapToRegistry registry https://registry.npmjs.org/
+47 silly mapToRegistry data Result {
+47 silly mapToRegistry   raw: 'passport',
+47 silly mapToRegistry   scope: null,
+47 silly mapToRegistry   escapedName: 'passport',
+47 silly mapToRegistry   name: 'passport',
+47 silly mapToRegistry   rawSpec: '',
+47 silly mapToRegistry   spec: 'latest',
+47 silly mapToRegistry   type: 'tag' }
+48 silly mapToRegistry uri https://registry.npmjs.org/passport
+49 silly mapToRegistry name passport-local
+50 silly mapToRegistry using default registry
+51 silly mapToRegistry registry https://registry.npmjs.org/
+52 silly mapToRegistry data Result {
+52 silly mapToRegistry   raw: 'passport-local',
+52 silly mapToRegistry   scope: null,
+52 silly mapToRegistry   escapedName: 'passport-local',
+52 silly mapToRegistry   name: 'passport-local',
+52 silly mapToRegistry   rawSpec: '',
+52 silly mapToRegistry   spec: 'latest',
+52 silly mapToRegistry   type: 'tag' }
+53 silly mapToRegistry uri https://registry.npmjs.org/passport-local
+54 silly mapToRegistry name socket.io
+55 silly mapToRegistry using default registry
+56 silly mapToRegistry registry https://registry.npmjs.org/
+57 silly mapToRegistry data Result {
+57 silly mapToRegistry   raw: 'socket.io',
+57 silly mapToRegistry   scope: null,
+57 silly mapToRegistry   escapedName: 'socket.io',
+57 silly mapToRegistry   name: 'socket.io',
+57 silly mapToRegistry   rawSpec: '',
+57 silly mapToRegistry   spec: 'latest',
+57 silly mapToRegistry   type: 'tag' }
+58 silly mapToRegistry uri https://registry.npmjs.org/socket.io
+59 verbose request uri https://registry.npmjs.org/bcrypt-nodejs
+60 verbose request no auth needed
+61 info attempt registry request try #1 at 10:45:50 AM
+62 verbose request id 141bad43a03e0cea
+63 verbose etag W/"59a79225-25db"
+64 verbose lastModified Thu, 31 Aug 2017 04:35:49 GMT
+65 http request GET https://registry.npmjs.org/bcrypt-nodejs
+66 verbose request uri https://registry.npmjs.org/body-parser
+67 verbose request no auth needed
+68 info attempt registry request try #1 at 10:45:50 AM
+69 verbose etag W/"59ac2488-21287"
+70 verbose lastModified Sun, 03 Sep 2017 15:49:28 GMT
+71 http request GET https://registry.npmjs.org/body-parser
+72 verbose request uri https://registry.npmjs.org/express
+73 verbose request no auth needed
+74 info attempt registry request try #1 at 10:45:50 AM
+75 verbose etag W/"59ad73db-8ec83"
+76 verbose lastModified Mon, 04 Sep 2017 15:40:11 GMT
+77 http request GET https://registry.npmjs.org/express
+78 verbose request uri https://registry.npmjs.org/http
+79 verbose request no auth needed
+80 info attempt registry request try #1 at 10:45:50 AM
+81 verbose etag W/"595c526d-3f9"
+82 verbose lastModified Wed, 05 Jul 2017 02:43:57 GMT
+83 http request GET https://registry.npmjs.org/http
+84 verbose request uri https://registry.npmjs.org/express-handlebars
+85 verbose request no auth needed
+86 info attempt registry request try #1 at 10:45:50 AM
+87 verbose etag W/"59a93df9-b236"
+88 verbose lastModified Fri, 01 Sep 2017 11:01:13 GMT
+89 http request GET https://registry.npmjs.org/express-handlebars
+90 verbose request uri https://registry.npmjs.org/passport
+91 verbose request no auth needed
+92 info attempt registry request try #1 at 10:45:50 AM
+93 verbose etag W/"59a8229e-b7c9"
+94 verbose lastModified Thu, 31 Aug 2017 14:52:14 GMT
+95 http request GET https://registry.npmjs.org/passport
+96 verbose request uri https://registry.npmjs.org/express-session
+97 verbose request no auth needed
+98 info attempt registry request try #1 at 10:45:50 AM
+99 verbose etag W/"59a93c22-203fa"
+100 verbose lastModified Fri, 01 Sep 2017 10:53:22 GMT
+101 http request GET https://registry.npmjs.org/express-session
+102 verbose request uri https://registry.npmjs.org/method-override
+103 verbose request no auth needed
+104 info attempt registry request try #1 at 10:45:50 AM
+105 verbose etag W/"59aaff8f-b1cd"
+106 verbose lastModified Sat, 02 Sep 2017 18:59:27 GMT
+107 http request GET https://registry.npmjs.org/method-override
+108 verbose request uri https://registry.npmjs.org/mysql
+109 verbose request no auth needed
+110 info attempt registry request try #1 at 10:45:50 AM
+111 verbose etag W/"59aa590f-23420"
+112 verbose lastModified Sat, 02 Sep 2017 07:09:03 GMT
+113 http request GET https://registry.npmjs.org/mysql
+114 verbose request uri https://registry.npmjs.org/passport-local
+115 verbose request no auth needed
+116 info attempt registry request try #1 at 10:45:50 AM
+117 verbose etag W/"59a0eebe-3893"
+118 verbose lastModified Sat, 26 Aug 2017 03:45:02 GMT
+119 http request GET https://registry.npmjs.org/passport-local
+120 verbose request uri https://registry.npmjs.org/socket.io
+121 verbose request no auth needed
+122 info attempt registry request try #1 at 10:45:50 AM
+123 verbose etag W/"59a3a57e-28a51"
+124 verbose lastModified Mon, 28 Aug 2017 05:09:18 GMT
+125 http request GET https://registry.npmjs.org/socket.io
+126 http 304 https://registry.npmjs.org/passport-local
+127 verbose headers { date: 'Sat, 09 Sep 2017 14:45:51 GMT',
+127 verbose headers   via: '1.1 varnish',
+127 verbose headers   'cache-control': 'max-age=300',
+127 verbose headers   etag: 'W/"59a0eebe-3893"',
+127 verbose headers   age: '229',
+127 verbose headers   connection: 'keep-alive',
+127 verbose headers   'x-served-by': 'cache-atl6247-ATL',
+127 verbose headers   'x-cache': 'HIT',
+127 verbose headers   'x-cache-hits': '1',
+127 verbose headers   'x-timer': 'S1504968351.020461,VS0,VE0',
+127 verbose headers   vary: 'Accept-Encoding, Accept' }
+128 silly get cb [ 304,
+128 silly get   { date: 'Sat, 09 Sep 2017 14:45:51 GMT',
+128 silly get     via: '1.1 varnish',
+128 silly get     'cache-control': 'max-age=300',
+128 silly get     etag: 'W/"59a0eebe-3893"',
+128 silly get     age: '229',
+128 silly get     connection: 'keep-alive',
+128 silly get     'x-served-by': 'cache-atl6247-ATL',
+128 silly get     'x-cache': 'HIT',
+128 silly get     'x-cache-hits': '1',
+128 silly get     'x-timer': 'S1504968351.020461,VS0,VE0',
+128 silly get     vary: 'Accept-Encoding, Accept' } ]
+129 verbose etag https://registry.npmjs.org/passport-local from cache
+130 verbose get saving passport-local to /Users/meka/.npm/registry.npmjs.org/passport-local/.cache.json
+131 verbose correctMkdir /Users/meka/.npm correctMkdir not in flight; initializing
+132 http 200 https://registry.npmjs.org/passport
+133 verbose headers { server: 'nginx/1.10.1',
+133 verbose headers   'content-type': 'application/json',
+133 verbose headers   'last-modified': 'Fri, 08 Sep 2017 04:00:37 GMT',
+133 verbose headers   etag: 'W/"59b215e5-b847"',
+133 verbose headers   'content-encoding': 'gzip',
+133 verbose headers   'cache-control': 'max-age=300',
+133 verbose headers   'content-length': '8915',
+133 verbose headers   'accept-ranges': 'bytes',
+133 verbose headers   date: 'Sat, 09 Sep 2017 14:45:51 GMT',
+133 verbose headers   via: '1.1 varnish',
+133 verbose headers   age: '229',
+133 verbose headers   connection: 'keep-alive',
+133 verbose headers   'x-served-by': 'cache-atl6241-ATL',
+133 verbose headers   'x-cache': 'HIT',
+133 verbose headers   'x-cache-hits': '1',
+133 verbose headers   'x-timer': 'S1504968351.013732,VS0,VE1',
+133 verbose headers   vary: 'Accept-Encoding, Accept' }
+134 silly get cb [ 200,
+134 silly get   { server: 'nginx/1.10.1',
+134 silly get     'content-type': 'application/json',
+134 silly get     'last-modified': 'Fri, 08 Sep 2017 04:00:37 GMT',
+134 silly get     etag: 'W/"59b215e5-b847"',
+134 silly get     'content-encoding': 'gzip',
+134 silly get     'cache-control': 'max-age=300',
+134 silly get     'content-length': '8915',
+134 silly get     'accept-ranges': 'bytes',
+134 silly get     date: 'Sat, 09 Sep 2017 14:45:51 GMT',
+134 silly get     via: '1.1 varnish',
+134 silly get     age: '229',
+134 silly get     connection: 'keep-alive',
+134 silly get     'x-served-by': 'cache-atl6241-ATL',
+134 silly get     'x-cache': 'HIT',
+134 silly get     'x-cache-hits': '1',
+134 silly get     'x-timer': 'S1504968351.013732,VS0,VE1',
+134 silly get     vary: 'Accept-Encoding, Accept' } ]
+135 verbose get saving passport to /Users/meka/.npm/registry.npmjs.org/passport/.cache.json
+136 verbose correctMkdir /Users/meka/.npm correctMkdir not in flight; initializing
+137 http 200 https://registry.npmjs.org/mysql
+138 verbose headers { server: 'nginx/1.10.1',
+138 verbose headers   'content-type': 'application/json',
+138 verbose headers   'last-modified': 'Thu, 07 Sep 2017 16:25:05 GMT',
+138 verbose headers   etag: 'W/"59b172e1-2344f"',
+138 verbose headers   'content-encoding': 'gzip',
+138 verbose headers   'cache-control': 'max-age=300',
+138 verbose headers   'content-length': '27614',
+138 verbose headers   'accept-ranges': 'bytes',
+138 verbose headers   date: 'Sat, 09 Sep 2017 14:45:51 GMT',
+138 verbose headers   via: '1.1 varnish',
+138 verbose headers   age: '20',
+138 verbose headers   connection: 'keep-alive',
+138 verbose headers   'x-served-by': 'cache-atl6239-ATL',
+138 verbose headers   'x-cache': 'HIT',
+138 verbose headers   'x-cache-hits': '1',
+138 verbose headers   'x-timer': 'S1504968351.015379,VS0,VE0',
+138 verbose headers   vary: 'Accept-Encoding, Accept' }
+139 silly get cb [ 200,
+139 silly get   { server: 'nginx/1.10.1',
+139 silly get     'content-type': 'application/json',
+139 silly get     'last-modified': 'Thu, 07 Sep 2017 16:25:05 GMT',
+139 silly get     etag: 'W/"59b172e1-2344f"',
+139 silly get     'content-encoding': 'gzip',
+139 silly get     'cache-control': 'max-age=300',
+139 silly get     'content-length': '27614',
+139 silly get     'accept-ranges': 'bytes',
+139 silly get     date: 'Sat, 09 Sep 2017 14:45:51 GMT',
+139 silly get     via: '1.1 varnish',
+139 silly get     age: '20',
+139 silly get     connection: 'keep-alive',
+139 silly get     'x-served-by': 'cache-atl6239-ATL',
+139 silly get     'x-cache': 'HIT',
+139 silly get     'x-cache-hits': '1',
+139 silly get     'x-timer': 'S1504968351.015379,VS0,VE0',
+139 silly get     vary: 'Accept-Encoding, Accept' } ]
+140 verbose get saving mysql to /Users/meka/.npm/registry.npmjs.org/mysql/.cache.json
+141 verbose correctMkdir /Users/meka/.npm correctMkdir not in flight; initializing
+142 http 200 https://registry.npmjs.org/express-session
+143 verbose headers { server: 'nginx/1.10.1',
+143 verbose headers   'content-type': 'application/json',
+143 verbose headers   'last-modified': 'Wed, 06 Sep 2017 05:45:11 GMT',
+143 verbose headers   etag: 'W/"59af8b67-2042e"',
+143 verbose headers   'content-encoding': 'gzip',
+143 verbose headers   'cache-control': 'max-age=300',
+143 verbose headers   'content-length': '18648',
+143 verbose headers   'accept-ranges': 'bytes',
+143 verbose headers   date: 'Sat, 09 Sep 2017 14:45:51 GMT',
+143 verbose headers   via: '1.1 varnish',
+143 verbose headers   age: '13',
+143 verbose headers   connection: 'keep-alive',
+143 verbose headers   'x-served-by': 'cache-atl6246-ATL',
+143 verbose headers   'x-cache': 'HIT',
+143 verbose headers   'x-cache-hits': '1',
+143 verbose headers   'x-timer': 'S1504968351.016975,VS0,VE0',
+143 verbose headers   vary: 'Accept-Encoding, Accept' }
+144 silly get cb [ 200,
+144 silly get   { server: 'nginx/1.10.1',
+144 silly get     'content-type': 'application/json',
+144 silly get     'last-modified': 'Wed, 06 Sep 2017 05:45:11 GMT',
+144 silly get     etag: 'W/"59af8b67-2042e"',
+144 silly get     'content-encoding': 'gzip',
+144 silly get     'cache-control': 'max-age=300',
+144 silly get     'content-length': '18648',
+144 silly get     'accept-ranges': 'bytes',
+144 silly get     date: 'Sat, 09 Sep 2017 14:45:51 GMT',
+144 silly get     via: '1.1 varnish',
+144 silly get     age: '13',
+144 silly get     connection: 'keep-alive',
+144 silly get     'x-served-by': 'cache-atl6246-ATL',
+144 silly get     'x-cache': 'HIT',
+144 silly get     'x-cache-hits': '1',
+144 silly get     'x-timer': 'S1504968351.016975,VS0,VE0',
+144 silly get     vary: 'Accept-Encoding, Accept' } ]
+145 verbose get saving express-session to /Users/meka/.npm/registry.npmjs.org/express-session/.cache.json
+146 verbose correctMkdir /Users/meka/.npm correctMkdir not in flight; initializing
+147 http 200 https://registry.npmjs.org/socket.io
+148 verbose headers { server: 'nginx/1.10.1',
+148 verbose headers   'content-type': 'application/json',
+148 verbose headers   'last-modified': 'Thu, 07 Sep 2017 16:16:11 GMT',
+148 verbose headers   etag: 'W/"59b170cb-28a84"',
+148 verbose headers   'content-encoding': 'gzip',
+148 verbose headers   'cache-control': 'max-age=300',
+148 verbose headers   'content-length': '20067',
+148 verbose headers   'accept-ranges': 'bytes',
+148 verbose headers   date: 'Sat, 09 Sep 2017 14:45:51 GMT',
+148 verbose headers   via: '1.1 varnish',
+148 verbose headers   age: '53',
+148 verbose headers   connection: 'keep-alive',
+148 verbose headers   'x-served-by': 'cache-atl6240-ATL',
+148 verbose headers   'x-cache': 'HIT',
+148 verbose headers   'x-cache-hits': '1',
+148 verbose headers   'x-timer': 'S1504968351.023814,VS0,VE1',
+148 verbose headers   vary: 'Accept-Encoding, Accept' }
+149 silly get cb [ 200,
+149 silly get   { server: 'nginx/1.10.1',
+149 silly get     'content-type': 'application/json',
+149 silly get     'last-modified': 'Thu, 07 Sep 2017 16:16:11 GMT',
+149 silly get     etag: 'W/"59b170cb-28a84"',
+149 silly get     'content-encoding': 'gzip',
+149 silly get     'cache-control': 'max-age=300',
+149 silly get     'content-length': '20067',
+149 silly get     'accept-ranges': 'bytes',
+149 silly get     date: 'Sat, 09 Sep 2017 14:45:51 GMT',
+149 silly get     via: '1.1 varnish',
+149 silly get     age: '53',
+149 silly get     connection: 'keep-alive',
+149 silly get     'x-served-by': 'cache-atl6240-ATL',
+149 silly get     'x-cache': 'HIT',
+149 silly get     'x-cache-hits': '1',
+149 silly get     'x-timer': 'S1504968351.023814,VS0,VE1',
+149 silly get     vary: 'Accept-Encoding, Accept' } ]
+150 verbose get saving socket.io to /Users/meka/.npm/registry.npmjs.org/socket.io/.cache.json
+151 verbose correctMkdir /Users/meka/.npm correctMkdir not in flight; initializing
+152 http 200 https://registry.npmjs.org/express
+153 verbose headers { server: 'nginx/1.10.1',
+153 verbose headers   'content-type': 'application/json',
+153 verbose headers   'last-modified': 'Sat, 09 Sep 2017 14:37:30 GMT',
+153 verbose headers   etag: 'W/"59b3fcaa-8ed0b"',
+153 verbose headers   'content-encoding': 'gzip',
+153 verbose headers   'cache-control': 'max-age=300',
+153 verbose headers   'content-length': '45114',
+153 verbose headers   'accept-ranges': 'bytes',
+153 verbose headers   date: 'Sat, 09 Sep 2017 14:45:51 GMT',
+153 verbose headers   via: '1.1 varnish',
+153 verbose headers   age: '229',
+153 verbose headers   connection: 'keep-alive',
+153 verbose headers   'x-served-by': 'cache-atl6245-ATL',
+153 verbose headers   'x-cache': 'HIT',
+153 verbose headers   'x-cache-hits': '1',
+153 verbose headers   'x-timer': 'S1504968351.009314,VS0,VE1',
+153 verbose headers   vary: 'Accept-Encoding, Accept' }
+154 silly get cb [ 200,
+154 silly get   { server: 'nginx/1.10.1',
+154 silly get     'content-type': 'application/json',
+154 silly get     'last-modified': 'Sat, 09 Sep 2017 14:37:30 GMT',
+154 silly get     etag: 'W/"59b3fcaa-8ed0b"',
+154 silly get     'content-encoding': 'gzip',
+154 silly get     'cache-control': 'max-age=300',
+154 silly get     'content-length': '45114',
+154 silly get     'accept-ranges': 'bytes',
+154 silly get     date: 'Sat, 09 Sep 2017 14:45:51 GMT',
+154 silly get     via: '1.1 varnish',
+154 silly get     age: '229',
+154 silly get     connection: 'keep-alive',
+154 silly get     'x-served-by': 'cache-atl6245-ATL',
+154 silly get     'x-cache': 'HIT',
+154 silly get     'x-cache-hits': '1',
+154 silly get     'x-timer': 'S1504968351.009314,VS0,VE1',
+154 silly get     vary: 'Accept-Encoding, Accept' } ]
+155 verbose get saving express to /Users/meka/.npm/registry.npmjs.org/express/.cache.json
+156 verbose correctMkdir /Users/meka/.npm correctMkdir not in flight; initializing
+157 http 200 https://registry.npmjs.org/bcrypt-nodejs
+158 verbose headers { server: 'nginx/1.10.1',
+158 verbose headers   'content-type': 'application/json',
+158 verbose headers   'last-modified': 'Wed, 06 Sep 2017 05:50:47 GMT',
+158 verbose headers   etag: 'W/"59af8cb7-25ed"',
+158 verbose headers   'content-encoding': 'gzip',
+158 verbose headers   'cache-control': 'max-age=300',
+158 verbose headers   'content-length': '2967',
+158 verbose headers   'accept-ranges': 'bytes',
+158 verbose headers   date: 'Sat, 09 Sep 2017 14:45:51 GMT',
+158 verbose headers   via: '1.1 varnish',
+158 verbose headers   age: '0',
+158 verbose headers   connection: 'keep-alive',
+158 verbose headers   'x-served-by': 'cache-atl6238-ATL',
+158 verbose headers   'x-cache': 'MISS',
+158 verbose headers   'x-cache-hits': '0',
+158 verbose headers   'x-timer': 'S1504968351.012862,VS0,VE194',
+158 verbose headers   vary: 'Accept-Encoding, Accept' }
+159 silly get cb [ 200,
+159 silly get   { server: 'nginx/1.10.1',
+159 silly get     'content-type': 'application/json',
+159 silly get     'last-modified': 'Wed, 06 Sep 2017 05:50:47 GMT',
+159 silly get     etag: 'W/"59af8cb7-25ed"',
+159 silly get     'content-encoding': 'gzip',
+159 silly get     'cache-control': 'max-age=300',
+159 silly get     'content-length': '2967',
+159 silly get     'accept-ranges': 'bytes',
+159 silly get     date: 'Sat, 09 Sep 2017 14:45:51 GMT',
+159 silly get     via: '1.1 varnish',
+159 silly get     age: '0',
+159 silly get     connection: 'keep-alive',
+159 silly get     'x-served-by': 'cache-atl6238-ATL',
+159 silly get     'x-cache': 'MISS',
+159 silly get     'x-cache-hits': '0',
+159 silly get     'x-timer': 'S1504968351.012862,VS0,VE194',
+159 silly get     vary: 'Accept-Encoding, Accept' } ]
+160 verbose get saving bcrypt-nodejs to /Users/meka/.npm/registry.npmjs.org/bcrypt-nodejs/.cache.json
+161 verbose correctMkdir /Users/meka/.npm correctMkdir not in flight; initializing
+162 http 304 https://registry.npmjs.org/express-handlebars
+163 verbose headers { date: 'Sat, 09 Sep 2017 14:45:51 GMT',
+163 verbose headers   via: '1.1 varnish',
+163 verbose headers   'cache-control': 'max-age=300',
+163 verbose headers   etag: 'W/"59a93df9-b236"',
+163 verbose headers   age: '0',
+163 verbose headers   connection: 'keep-alive',
+163 verbose headers   'x-served-by': 'cache-atl6249-ATL',
+163 verbose headers   'x-cache': 'MISS',
+163 verbose headers   'x-cache-hits': '0',
+163 verbose headers   'x-timer': 'S1504968351.016524,VS0,VE198',
+163 verbose headers   vary: 'Accept-Encoding, Accept' }
+164 silly get cb [ 304,
+164 silly get   { date: 'Sat, 09 Sep 2017 14:45:51 GMT',
+164 silly get     via: '1.1 varnish',
+164 silly get     'cache-control': 'max-age=300',
+164 silly get     etag: 'W/"59a93df9-b236"',
+164 silly get     age: '0',
+164 silly get     connection: 'keep-alive',
+164 silly get     'x-served-by': 'cache-atl6249-ATL',
+164 silly get     'x-cache': 'MISS',
+164 silly get     'x-cache-hits': '0',
+164 silly get     'x-timer': 'S1504968351.016524,VS0,VE198',
+164 silly get     vary: 'Accept-Encoding, Accept' } ]
+165 verbose etag https://registry.npmjs.org/express-handlebars from cache
+166 verbose get saving express-handlebars to /Users/meka/.npm/registry.npmjs.org/express-handlebars/.cache.json
+167 verbose correctMkdir /Users/meka/.npm correctMkdir not in flight; initializing
+168 http 304 https://registry.npmjs.org/http
+169 verbose headers { date: 'Sat, 09 Sep 2017 14:45:51 GMT',
+169 verbose headers   via: '1.1 varnish',
+169 verbose headers   'cache-control': 'max-age=300',
+169 verbose headers   etag: 'W/"595c526d-3f9"',
+169 verbose headers   age: '0',
+169 verbose headers   connection: 'keep-alive',
+169 verbose headers   'x-served-by': 'cache-atl6242-ATL',
+169 verbose headers   'x-cache': 'MISS',
+169 verbose headers   'x-cache-hits': '0',
+169 verbose headers   'x-timer': 'S1504968351.011115,VS0,VE204',
+169 verbose headers   vary: 'Accept-Encoding, Accept' }
+170 silly get cb [ 304,
+170 silly get   { date: 'Sat, 09 Sep 2017 14:45:51 GMT',
+170 silly get     via: '1.1 varnish',
+170 silly get     'cache-control': 'max-age=300',
+170 silly get     etag: 'W/"595c526d-3f9"',
+170 silly get     age: '0',
+170 silly get     connection: 'keep-alive',
+170 silly get     'x-served-by': 'cache-atl6242-ATL',
+170 silly get     'x-cache': 'MISS',
+170 silly get     'x-cache-hits': '0',
+170 silly get     'x-timer': 'S1504968351.011115,VS0,VE204',
+170 silly get     vary: 'Accept-Encoding, Accept' } ]
+171 verbose etag https://registry.npmjs.org/http from cache
+172 verbose get saving http to /Users/meka/.npm/registry.npmjs.org/http/.cache.json
+173 verbose correctMkdir /Users/meka/.npm correctMkdir not in flight; initializing
+174 http 200 https://registry.npmjs.org/body-parser
+175 verbose headers { server: 'nginx/1.10.1',
+175 verbose headers   'content-type': 'application/json',
+175 verbose headers   'last-modified': 'Sat, 09 Sep 2017 04:17:26 GMT',
+175 verbose headers   etag: 'W/"59b36b56-21f8f"',
+175 verbose headers   'content-encoding': 'gzip',
+175 verbose headers   'cache-control': 'max-age=300',
+175 verbose headers   'content-length': '16010',
+175 verbose headers   'accept-ranges': 'bytes',
+175 verbose headers   date: 'Sat, 09 Sep 2017 14:45:51 GMT',
+175 verbose headers   via: '1.1 varnish',
+175 verbose headers   age: '0',
+175 verbose headers   connection: 'keep-alive',
+175 verbose headers   'x-served-by': 'cache-atl6250-ATL',
+175 verbose headers   'x-cache': 'HIT',
+175 verbose headers   'x-cache-hits': '1',
+175 verbose headers   'x-timer': 'S1504968351.013520,VS0,VE191',
+175 verbose headers   vary: 'Accept-Encoding, Accept' }
+176 silly get cb [ 200,
+176 silly get   { server: 'nginx/1.10.1',
+176 silly get     'content-type': 'application/json',
+176 silly get     'last-modified': 'Sat, 09 Sep 2017 04:17:26 GMT',
+176 silly get     etag: 'W/"59b36b56-21f8f"',
+176 silly get     'content-encoding': 'gzip',
+176 silly get     'cache-control': 'max-age=300',
+176 silly get     'content-length': '16010',
+176 silly get     'accept-ranges': 'bytes',
+176 silly get     date: 'Sat, 09 Sep 2017 14:45:51 GMT',
+176 silly get     via: '1.1 varnish',
+176 silly get     age: '0',
+176 silly get     connection: 'keep-alive',
+176 silly get     'x-served-by': 'cache-atl6250-ATL',
+176 silly get     'x-cache': 'HIT',
+176 silly get     'x-cache-hits': '1',
+176 silly get     'x-timer': 'S1504968351.013520,VS0,VE191',
+176 silly get     vary: 'Accept-Encoding, Accept' } ]
+177 verbose get saving body-parser to /Users/meka/.npm/registry.npmjs.org/body-parser/.cache.json
+178 verbose correctMkdir /Users/meka/.npm correctMkdir not in flight; initializing
+179 http 200 https://registry.npmjs.org/method-override
+180 verbose headers { server: 'nginx/1.10.1',
+180 verbose headers   'content-type': 'application/json',
+180 verbose headers   'last-modified': 'Mon, 04 Sep 2017 21:49:18 GMT',
+180 verbose headers   etag: 'W/"59adca5e-b1dd"',
+180 verbose headers   'content-encoding': 'gzip',
+180 verbose headers   'cache-control': 'max-age=300',
+180 verbose headers   'content-length': '6657',
+180 verbose headers   'accept-ranges': 'bytes',
+180 verbose headers   date: 'Sat, 09 Sep 2017 14:45:51 GMT',
+180 verbose headers   via: '1.1 varnish',
+180 verbose headers   age: '0',
+180 verbose headers   connection: 'keep-alive',
+180 verbose headers   'x-served-by': 'cache-atl6248-ATL',
+180 verbose headers   'x-cache': 'HIT',
+180 verbose headers   'x-cache-hits': '1',
+180 verbose headers   'x-timer': 'S1504968351.019853,VS0,VE339',
+180 verbose headers   vary: 'Accept-Encoding, Accept' }
+181 silly get cb [ 200,
+181 silly get   { server: 'nginx/1.10.1',
+181 silly get     'content-type': 'application/json',
+181 silly get     'last-modified': 'Mon, 04 Sep 2017 21:49:18 GMT',
+181 silly get     etag: 'W/"59adca5e-b1dd"',
+181 silly get     'content-encoding': 'gzip',
+181 silly get     'cache-control': 'max-age=300',
+181 silly get     'content-length': '6657',
+181 silly get     'accept-ranges': 'bytes',
+181 silly get     date: 'Sat, 09 Sep 2017 14:45:51 GMT',
+181 silly get     via: '1.1 varnish',
+181 silly get     age: '0',
+181 silly get     connection: 'keep-alive',
+181 silly get     'x-served-by': 'cache-atl6248-ATL',
+181 silly get     'x-cache': 'HIT',
+181 silly get     'x-cache-hits': '1',
+181 silly get     'x-timer': 'S1504968351.019853,VS0,VE339',
+181 silly get     vary: 'Accept-Encoding, Accept' } ]
+182 verbose get saving method-override to /Users/meka/.npm/registry.npmjs.org/method-override/.cache.json
+183 verbose correctMkdir /Users/meka/.npm correctMkdir not in flight; initializing
+184 verbose outdated not updating passport because it's currently at the maximum version that matches its specified semver range
+185 info outdated updating [ { dep:
+185 info outdated      Node {
+185 info outdated        id: 13,
+185 info outdated        package: [Object],
+185 info outdated        path: '/Users/meka/cocoding/node_modules/body-parser',
+185 info outdated        realpath: '/Users/meka/cocoding/node_modules/body-parser',
+185 info outdated        parent: [Object],
+185 info outdated        isLink: false,
+185 info outdated        children: [Object],
+185 info outdated        error: null,
+185 info outdated        loaded: false,
+185 info outdated        requiredBy: [],
+185 info outdated        requires: [Object],
+185 info outdated        missingDeps: {},
+185 info outdated        missingDevDeps: {},
+185 info outdated        phantomChildren: [Object],
+185 info outdated        location: '/body-parser',
+185 info outdated        userRequired: false,
+185 info outdated        existing: false,
+185 info outdated        isTop: false,
+185 info outdated        resolved: [Object] },
+185 info outdated     depname: 'body-parser',
+185 info outdated     current: '1.17.2',
+185 info outdated     wanted: '1.18.0',
+185 info outdated     latest: '1.18.0',
+185 info outdated     req: 'latest',
+185 info outdated     what: 'body-parser@1.18.0' } ]
+186 silly loadCurrentTree Starting
+187 silly install loadCurrentTree
+188 silly install readLocalPackageData
+189 silly rollbackFailedOptional Starting
+190 silly rollbackFailedOptional Finishing
+191 silly runTopLevelLifecycles Finishing
+192 silly install printInstalled
+193 verbose stack Error: Failed to parse json
+193 verbose stack Trailing comma in object at 35:3
+193 verbose stack   }
+193 verbose stack   ^
+193 verbose stack     at parseError (/usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:390:11)
+193 verbose stack     at parseJson (/usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:79:23)
+193 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:48:5
+193 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/graceful-fs/graceful-fs.js:78:16
+193 verbose stack     at tryToString (fs.js:449:3)
+193 verbose stack     at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:436:12)
+194 verbose cwd /Users/meka/cocoding
+195 error Darwin 16.7.0
+196 error argv "/usr/local/Cellar/node/7.7.4/bin/node" "/usr/local/lib/node_modules/npm/bin/npm-cli.js" "update" "--scripts-prepend-node-path=auto"
+197 error node v7.7.4
+198 error npm  v4.1.2
+199 error file /Users/meka/cocoding/package.json
+200 error code EJSONPARSE
+201 error Failed to parse json
+201 error Trailing comma in object at 35:3
+201 error   }
+201 error   ^
+202 error File: /Users/meka/cocoding/package.json
+203 error Failed to parse package.json data.
+203 error package.json must be actual JSON, not just JavaScript.
+203 error
+203 error This is not a bug in npm.
+203 error Tell the package author to fix their package.json file. JSON.parse
+204 verbose exit [ 1, true ]

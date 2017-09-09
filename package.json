@@ -18,11 +18,19 @@
   },
   "homepage": "https://github.com/mekaknepley/cocoding#readme",
   "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
     "body-parser": "^1.17.2",
     "express": "^4.15.4",
     "express-handlebars": "^3.0.0",
+    "express-session": "^1.15.5",
     "http": "0.0.0",
     "method-override": "^2.3.9",
-    "socket.io": "^2.0.3"
+    "mysql": "^2.14.1",
+    "passport": "^0.2.2",
+    "passport-local": "^1.0.0",
+    "socket.io": "^2.0.3",
+    "codemirror-minified": "^5.28.0",
+    "jquery": "^3.2.1",
+    "rethinkdb": "^2.3.3",
   }
 }

@@ -1,0 +1,104 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+#navPosition {
+    padding-left: 20px;
+}
+nav ul a,
+nav .brand-logo {
+    color: white;
+}
+
+#robotsSize {
+    height: 80px;
+    width: 80px;
+}
+
+#tagLine {
+    font-size: 65px;
+    line-height: 115%;
+    font-family: 'Fjalla One', sans-serif;
+}
+#tagLine2 {
+    font-size:25px;
+    /*font-family: 'Varela Round', sans-serif;*/
+    color: aquamarine;
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+
+}
+
+#signUpAndTagDiv {
+    padding-left: 30px;
+}
+
+#image1 {
+    height: 256px;
+    width: 256px;
+}
+
+#howWorksTitle {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+p {
+    line-height: 2rem;
+}
+
+.button-collapse {
+    color: #26a69a;
+}
+
+.parallax-container {
+    min-height: 700px;
+    line-height: 0;
+    height: auto;
+    color: rgba(255,255,255,.9);
+}
+.parallax-container .section {
+    width: 100%;
+}
+
+@media only screen and (max-width : 992px) {
+    .parallax-container .section {
+        position: absolute;
+        top: 40%;
+    }
+    #index-banner .section {
+        top: 10%;
+    }
+}
+
+@media only screen and (max-width : 600px) {
+    #index-banner .section {
+        top: 0;
+    }
+}
+
+.icon-block {
+    padding: 0 15px;
+}
+.icon-block .material-icons {
+    font-size: inherit;
+}
+
+.langBox {
+    color: white;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+#robotBg {
+    opacity: .5;
+}
+#div3Info {
+    height: 150px;
+}
+
+footer.page-footer {
+    margin: 0;
+}

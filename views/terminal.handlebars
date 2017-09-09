@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>coCodingLive</title>
+
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body>
+
+{{username}} Logged In!
+
+<form class="logoutForm" action="/logout" method="GET">
+    <button type="submit">LOG OUT</button>
+</form>
+
+<style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font: 13px Helvetica, Arial; }
+    #chatForm { background: #000; padding: 3px; position: fixed; bottom: 0; width: 100%; }
+    #chatForm input { border: 0; padding: 10px; width: 90%; margin-right: .5%; }
+    #chatForm button { width: 9%; background: rgb(130, 224, 255); border: none; padding: 10px; }
+    .tempLoginForm input { width: 200px; height:25px; }
+    #messages { list-style-type: none; margin: 0; padding: 0; }
+    #messages li { padding: 5px 10px; }
+    #messages li:nth-child(odd) { background: #eee; }
+</style>
+
+<ul id="messages"></ul>
+<form id="chatForm" action="">
+    <input id="m" autocomplete="off" /><button>Send</button>
+</form>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+<script>
+    var socket = io();
+    $(function () {
+        var socket = io();
+        $('#chatForm').submit(function(){
+            socket.emit('chat message', "{{username}}: " + $('#m').val());
+            $('#m').val('');
+            return false;
+        });
+    });
+    socket.on('chat message', function(msg){
+        $('#messages').append($('<li>').text(msg));
+    });
+</script>
+
+</body>
+</html>
