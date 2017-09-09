@@ -3,20 +3,16 @@ var session = require("express-session");
 var bodyParser = require("body-parser");
 var methodOverride = require("method-override");
 var path = require("path");
-
 var r= require("rethinkdb");
-
+var passport = require("passport");
 
 var app = express();
 var http = require("http").Server(app);
 var io = require("socket.io")(http);
 
-var passport = require("passport");
-
-var port = process.env.PORT || 3000;
-
 require('./config/passport')(passport);
 
+var port = process.env.PORT || 3000;
 
 // Serve static content for the app from the "public" directory in the application directory.
 app.use(express.static("public"));
@@ -83,14 +79,7 @@ r.connect({host: 'localhost', port: 28015}, function(err, conn){
     });
 });
 
-
 /*--------------------------------------------------------------*/
-
-
-// Import routes and give the server access to them.
-var routes = require("./controllers/controller.js");
-
-app.use("/", routes);
 
 // required for passport
 app.use(session({

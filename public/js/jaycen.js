@@ -4,9 +4,11 @@ $(document).ready(function(){
         lineNumbers: true,
         lineWrapping: true,
         showCursorWhenSelecting: true,
-        theme: "rubyblue"
+        theme: "rubyblue",
+        keymap: 'sublime',
+        extraKeys: {"Ctrl-Space": "autocomplete"},
+        value:document.documentElement.innerHTML
     });
-    
     
     $('#preview-form').submit(function(e){
         e.preventDefault();
