@@ -14,11 +14,11 @@
         <a id="logo-container" href="#" class="brand-logo"><i class="large material-icons left">code</i>coCoding Live</a>
         <ul class="right hide-on-med-and-down">
             <li><a href="sass.html"><i class="material-icons left">person</i>Username</a></li>
-            <li><a class="waves-effect waves-light btn-tiny"><i class="material-icons left">lock</i>Sign Out</a>
+            <li><a class="waves-effect waves-light btn-tiny"><i class="material-icons left">lock</i>Sign Out</a></li>
         </ul>
         <ul id="nav-mobile" class="side-nav">
             <li><a href="sass.html"><i class="material-icons left">person</i>Username</a></li>
-            <li><a class="waves-effect waves-light btn-tiny"><i class="material-icons left">lock</i>Sign Out</a>
+            <li><a class="waves-effect waves-light btn-tiny"><i class="material-icons left">lock</i>Sign Out</a></li>
         </ul>
         <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
@@ -37,15 +37,17 @@
                         <ul>
                             <li>From my files</li>
                             <li>From Classroom</li>
-                            <ul>
+                        </ul>
                     </div>
+                </li>
+                            
                 <li>
                     <div class="collapsible-header waves-effect waves-teal"><i class="material-icons">list</i>Save</div>
                     <div class="collapsible-body">
                         <ul>
                             <li>Save as...</li>
                             <li>Save</li>
-                            <ul>
+                        </ul>
                     </div>
                 </li>
                 <li>
@@ -54,7 +56,7 @@
                         <ul>
                             <li>With everyone</li>
                             <li>Email</li>
-                            <ul>
+                        </ul>
                     </div>
                 <li>
                     <div class="collapsible-header waves-effect waves-teal"><i class="material-icons">list</i>A-C</div>
@@ -257,15 +259,297 @@
         <div class="row center">
             <!-- Terminal Start -->
             <div class="header col s8 light z-depth-3 terminal">
-                Terminal
-                <p>Terminal
-                <p>Terminal
-                <p>Terminal
-                <p>Terminal
-                <p>Terminal
-                <p>Terminal
-                <p>Terminal
-            </div>
+                    <div id="nav">
+                            <!-- File Dropdown Structure -->
+                            <ul id="file" class="dropdown-content">
+                                <li><a href="#new" class="modal-trigger">New</a></li>
+                                <li><a href="#open" class="modal-trigger">Open</a></li>
+                                <li><a href="#save" class="modal-trigger">Save</a></li>
+                                <li><a href="#saveas" class="modal-trigger">Save As...</a></li>
+                                <li><a href="#collab" class="modal-trigger">Collaborate</a></li>
+                                <li class="divider"></li>
+                                <div id="recent">
+                                    <h6>Recent Files</h6>
+                                    <ul>
+                                        <li><a href="#">Test.js</a></li>
+                                    </ul>
+                                </div>
+                            </ul> <!-- END FILE DROPDOWN STRUCTURE-->
+
+
+                            <!-- LANGUAGE DROPDOWN STRUCTURE-->
+                            <ul id="language" class="dropdown-content">
+                                <li><a id="cPlusPlus">C++</a></li>
+                                <li><a id="cSharp">C#</a></li>
+                                <li><a id="handlebars">Handlebars</a></li>
+                                <li><a id="html">HTML</a></li>
+                                <li><a id="javascript">JavaScript</a></li>
+                                <li><a id="json">JSON</a></li>
+                                <li><a id="php">PHP</a></li>
+                                <li><a id="txt">TXT</a></li>
+                            </ul> <!-- END LANGUAGE DROPDOWN STRUCTURE-->
+                            <nav id="toolbar">
+                                <div class="nav-wrapper">
+                                    <ul class="left">
+                                    <!-- Dropdown Trigger -->
+                                        <li><a class="dropdown" href="#!" data-activates="file">File</a></li>
+                                        <li><a class="dropdown" href="#!" data-activates="language">Language</a></li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div> <!-- END NAV -->
+
+                        <form id="preview-form">
+                            <textarea class="codemirror-textarea" name="editor-value" id="editor-value" rows="4" cols="10"></textarea>
+                            <br>
+                            <input type="submit" name="submit" id="submit" value="submit">
+                        </form>
+
+                            <!--<div id="preview"></div>-->
+
+                        <!--<div id="code">
+                            <textarea class="codemirror-textarea" rows="4" cols="10"></textarea>
+                        </div> -->
+
+
+                        <!-- MODALS -->
+                <!----------------------------------------------------------------------------------------------->
+
+                        <div id="saveas" class="modal">
+                            <div class="modal-content">
+                                <h4>Save As...</h4>
+                                <!-- drop down for file location, buttons for go up a level and create new folder -->
+                                <div class="row">
+                                    <div class="input-field col s6 offset-s1">
+                                        <select id="file-directory">
+                                            <option value="" disabled selected>Save in</option>
+                                        </select>
+                                    </div>
+                                    <div class="col s1 offset-s1"><i class="small material-icons" title="Up One Level">arrow_drop_up</i></div>
+                                    <div class="col s1"><i class="small material-icons" title="Create New Folder">add</i></div>
+                                </div>
+                                <!-- window that lists files within that file location currently selected -->
+                                <div class="row">
+                                    <div class="col s10 offset-s1" id="file-location">
+                                        <ul>
+                                            <li>Test.js</li>
+                                            <li>Test.css</li>
+                                            <li>Test.html</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <!-- text box for file name -->
+                                <div class="row">
+                                    <div class="input-field col s6 offset-s1">
+                                        <input placeholder="File Name" id="file-name" type="text">
+                                    </div>
+                                    <div class="col s2 offset-s1">
+                                        <a class="modal-action waves-effect waves-light btn">Save</a>
+                                    </div>
+                                </div>
+                                <!-- drop down for save as type with a list of file types -->
+                                <div class="row">
+                                    <div class="input-field col s6 offset-s1">
+                                        <select id="file-type">
+                                            <option value="" disabled selected>Save as type</option>
+                                            <option value="handlebars"> Handlebars File (*.handlebars) </option>
+                                            <option value="html"> Hypertext Markup Language File (*.html) </option>
+                                            <option value="js"> JavaScript File (*.js) </option>
+                                            <option value="json"> JavaScript Object Notation File (*.json) </option>
+                                            <option value="php"> PHP - Hypertext Preprocessor File (*.php) </option>
+                                            <option value="html"> TXT - Normal Text File (*.txt) </option>
+                                        </select>
+                                    </div>
+                                    <div class="col s2 offset-s1">
+                                        <a href="#!" class="modal-action modal-close waves-effect waves-light btn">Cancel</a>
+                                    </div>
+                                </div>            
+                        </div>
+                    </div> <!-- END SAVEAS MODAL-->
+
+                <!----------------------------------------------------------------------------------------------->
+
+                        <div id="save" class="modal">
+                        <div class="modal-content">
+                            <h4>Save</h4>
+                            <!-- drop down for file location, buttons for go up a level and create new folder -->
+                            <div class="row">
+                                <div class="input-field col s6 offset-s1">
+                                    <select id="file-directory">
+                                        <option value="" disabled selected>Save in</option>
+                                    </select>
+                                </div>
+                                <div class="col s1 offset-s1"><i class="small material-icons" title="Up One Level">arrow_drop_up</i></div>
+                                <div class="col s1"><i class="small material-icons" title="Create New Folder">add</i></div>
+                            </div>
+                            <!-- window that lists files within that file location currently selected -->
+                            <div class="row">
+                                <div class="col s10 offset-s1" id="file-location">
+                                    <ul>
+                                        <li>Test.js</li>
+                                        <li>Test.css</li>
+                                        <li>Test.html</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- text box for file name -->
+                            <div class="row">
+                                <div class="input-field col s6 offset-s1">
+                                    <input placeholder="File Name" id="file-name" type="text">
+                                </div>
+                                <div class="col s2 offset-s1">
+                                    <a class="modal-action waves-effect waves-light btn">Save</a>
+                                </div>
+                            </div>
+                            <!-- drop down for save as type with a list of file types -->
+                            <div class="row">
+                                <div class="input-field col s6 offset-s1">
+                                    <select id="file-type">
+                                        <option value="" disabled selected>Save as type</option>
+                                        <option value="handlebars"> Handlebars File (*.handlebars) </option>
+                                        <option value="html"> Hypertext Markup Language File (*.html) </option>
+                                        <option value="js"> JavaScript File (*.js) </option>
+                                        <option value="json"> JavaScript Object Notation File (*.json) </option>
+                                        <option value="php"> PHP - Hypertext Preprocessor File (*.php) </option>
+                                        <option value="html"> TXT - Normal Text File (*.txt) </option>
+                                    </select>
+                                </div>
+                                <div class="col s2 offset-s1">
+                                    <a href="#!" class="modal-action modal-close waves-effect waves-light btn">Cancel</a>
+                                </div>
+                            </div>            
+                        </div>
+                    </div> <!-- END SAVE MODAL-->
+
+                <!----------------------------------------------------------------------------------------------->
+
+                        <div id="open" class="modal">
+                            <div class="modal-content">
+                                <h4>Open File</h4>
+                                <!-- drop down for file location, buttons for go up a level and create new folder -->
+                                <div class="row">
+                                    <div class="input-field col s6 offset-s1">
+                                        <select id="file-directory">
+                                            <option value="" disabled selected>Select Folder</option>
+                                        </select>
+                                    </div>
+                                    <div class="col s1 offset-s1"><i class="small material-icons" title="Up One Level">arrow_drop_up</i></div>
+                                    <div class="col s1"><i class="small material-icons" title="Create New Folder">add</i></div>
+                                </div>
+                                <!-- window that lists files within that file location currently selected -->
+                                <div class="row">
+                                    <div class="col s10 offset-s1" id="file-location">
+                                        <ul>
+                                            <li>Test.js</li>
+                                            <li>Test.css</li>
+                                            <li>Test.html</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <!-- text box for file name -->
+                                <div class="row">
+                                    <div class="input-field col s6 offset-s1">
+                                        <input placeholder="File Name" id="file-name" type="text">
+                                    </div>
+
+                                </div>
+                                <!-- drop down for save as type with a list of file types -->
+                                <div class="row">
+                                    <div class="col s2 offset-s1">
+                                        <a class="modal-action waves-effect waves-light btn">Open</a>
+                                    </div>
+                                    <div class="col s2 offset-s1">
+                                        <a href="#" class="modal-action modal-close waves-effect waves-light btn">Cancel</a>
+                                    </div>
+                                </div>            
+                            </div>
+                        </div> <!-- END OPEN MODAL-->
+
+                <!----------------------------------------------------------------------------------------------->
+
+                        <div id="new" class="modal">
+                            <div class="modal-content">
+                                <h4>New File</h4>
+                                <!-- drop down for file location, buttons for go up a level and create new folder -->
+                                <div class="row">
+                                    <div class="input-field col s6 offset-s1">
+                                        <select id="file-directory">
+                                            <option value="" disabled selected>Select Folder</option>
+                                        </select>
+                                    </div>
+                                    <div class="col s1 offset-s1"><i class="small material-icons" title="Up One Level">arrow_drop_up</i></div>
+                                    <div class="col s1"><i class="small material-icons" title="Create New Folder">add</i></div>
+                                </div>
+                                <!-- window that lists files within that file location currently selected -->
+                                <div class="row">
+                                    <div class="col s10 offset-s1" id="file-location">
+                                        <ul>
+                                            <li>Test.js</li>
+                                            <li>Test.css</li>
+                                            <li>Test.html</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <!-- text box for file name -->
+                                <div class="row">
+                                    <div class="input-field col s6 offset-s1">
+                                        <input placeholder="File Name" id="file-name" type="text">
+                                    </div>
+                                    <div class="col s2 offset-s1">
+                                        <a class="modal-action waves-effect waves-light btn">Save</a>
+                                    </div>
+                                </div>
+                                <!-- drop down for save as type with a list of file types -->
+                                <div class="row">
+                                    <div class="input-field col s6 offset-s1">
+                                        <select id="file-type">
+                                            <option value="" disabled selected>Save as type</option>
+                                            <option value="handlebars"> Handlebars File (*.handlebars) </option>
+                                            <option value="html"> Hypertext Markup Language File (*.html) </option>
+                                            <option value="js"> JavaScript File (*.js) </option>
+                                            <option value="json"> JavaScript Object Notation File (*.json) </option>
+                                            <option value="php"> PHP - Hypertext Preprocessor File (*.php) </option>
+                                            <option value="html"> TXT - Normal Text File (*.txt) </option>
+                                        </select>
+                                    </div>
+                                    <div class="col s2 offset-s1">
+                                        <a href="#!" class="modal-action modal-close waves-effect waves-light btn">Cancel</a>
+                                    </div>
+                                </div>            
+                        </div>
+                    </div> <!-- END NEW MODAL-->
+
+                <!----------------------------------------------------------------------------------------------->
+
+                        <div id="collab" class="modal">
+                            <div class="modal-content">
+                                <h4>Collaborate</h4>
+                                <!-- drop down for file location, buttons for go up a level and create new folder -->
+                                <div class="row">
+
+                                    <div class="col s2 offset-s1">
+                                        <a href="/room=1&user=user1" class="modal-action waves-effect waves-light btn">Collaborate</a>
+                                    </div>
+                                    <div class="col s2 offset-s1">
+                                        <a href="#!" class="modal-action modal-close waves-effect waves-light btn">Cancel</a>
+                                </div>
+                            </div>
+                        </div> 
+                    </div><!-- END NEW MODAL-->
+
+                <!----------------------------------------------------------------------------------------------->
+                        <script>
+                            $(document).ready(function(){
+                            $('.dropdown').dropdown({
+                               belowOrigin: true
+                            });
+
+                            $('select').material_select();
+
+                            $('.modal').modal();
+                        });
+                        </script><!-- END SCRIPT -->
+                </div>    
             <!-- Terminal End -->
             <!-- Chat Start -->
             <div class="header col s3 offset-s1 light z-depth-3 chat">
@@ -279,15 +563,8 @@
         </div>
         <div class="row center">
             <!-- Live Terminal Start -->
-            <div class="header col s8 light z-depth-3 liveTerminal">
-                Live Terminal
-                <p>Live Terminal
-                <p>Live Terminal
-                <p>Live Terminal
-                <p>Live Terminal
-                <p>Live Terminal
-                <p>Live Terminal
-                <p>Live Terminal
+            <div id="preview" class="header col s8 light z-depth-3 liveTerminal">
+                
             </div>
             <!-- Live Terminal End -->
             <!-- Video Start -->
