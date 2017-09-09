@@ -18,7 +18,6 @@
   },
   "homepage": "https://github.com/mekaknepley/cocoding#readme",
   "dependencies": {
-    "@emmetio/codemirror-plugin": "^0.3.5",
     "bcrypt-nodejs": "0.0.3",
     "body-parser": "^1.17.2",
     "codemirror-minified": "^5.28.0",
