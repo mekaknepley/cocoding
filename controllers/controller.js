@@ -7,5 +7,13 @@ router.get("/", function(req, res) {
     res.render("index");
 });
 
+router.get("/codeEditor", function(req,res){
+   res.render("codeEditor"); 
+});
+
+/*router.get("/room=?&user=?", function(req, res){
+    res.render("collab"); 
+});*/
+
 // Export routes for server.js to use.
 module.exports = router;

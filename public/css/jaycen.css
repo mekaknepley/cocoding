@@ -1,0 +1,19 @@
+#code {
+    height: 710px;
+    border: solid 1px;
+}
+
+#recent {
+    color: #CCC;
+    text-align: center;
+}
+
+#preview {
+    border: 2px solid;
+    background-color: white;
+    min-height: 200px;    
+}
+
+li a {
+    color: blue;
+}
