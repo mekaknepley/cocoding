@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="dc34fec3-ee93-4d1d-aafa-2dd7766ccdc6" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/classrooms.handlebars" afterPath="$PROJECT_DIR$/views/classrooms.handlebars" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/companies.handlebars" afterPath="$PROJECT_DIR$/views/companies.handlebars" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/landingpage.handlebars" afterPath="$PROJECT_DIR$/views/landingpage.handlebars" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -58,7 +56,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="landingpage.handlebars" pinned="false" current-in-tab="true">
+      <file leaf-file-name="landingpage.handlebars" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/landingpage.handlebars">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="133">
@@ -68,11 +66,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="classrooms.handlebars" pinned="false" current-in-tab="false">
+      <file leaf-file-name="classrooms.handlebars" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/classrooms.handlebars">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="97">
-              <caret line="47" column="29" lean-forward="true" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
+            <state relative-caret-position="1962">
+              <caret line="105" column="14" lean-forward="true" selection-start-line="105" selection-start-column="14" selection-end-line="105" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -122,7 +120,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>hover</find>
       <find>sign-up-in</find>
       <find>parallax</find>
       <find>index-</find>
@@ -152,6 +149,7 @@
       <find>signup</find>
       <find>loginModal</find>
       <find>black</find>
+      <find>bla</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -191,8 +189,8 @@
         <option value="$PROJECT_DIR$/config/passport.js" />
         <option value="$PROJECT_DIR$/views/roomlist.handlebars" />
         <option value="$PROJECT_DIR$/views/companies.handlebars" />
-        <option value="$PROJECT_DIR$/views/classrooms.handlebars" />
         <option value="$PROJECT_DIR$/views/landingpage.handlebars" />
+        <option value="$PROJECT_DIR$/views/classrooms.handlebars" />
       </list>
     </option>
   </component>
@@ -346,12 +344,12 @@
       <workItem from="1504106274099" duration="70803000" />
       <workItem from="1504554233928" duration="1643000" />
       <workItem from="1504558632847" duration="147566000" />
-      <workItem from="1505324450614" duration="47037000" />
+      <workItem from="1505324450614" duration="47315000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="267049000" />
+    <option name="totallyTimeSpent" value="267327000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="13" y="52" width="1400" height="785" extended-state="0" />
@@ -704,18 +702,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/classrooms.handlebars">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="47" column="29" lean-forward="true" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/landingpage.handlebars">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="177" column="0" lean-forward="true" selection-start-line="177" selection-start-column="0" selection-end-line="177" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/classrooms.handlebars">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1962">
+          <caret line="105" column="14" lean-forward="true" selection-start-line="105" selection-start-column="14" selection-end-line="105" selection-end-column="14" />
           <folding />
         </state>
       </provider>
