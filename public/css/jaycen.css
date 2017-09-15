@@ -11,9 +11,34 @@
 #preview {
     border: 2px solid;
     background-color: white;
-    min-height: 200px;    
+    min-height: 200px;
 }
 
 li a {
     color: blue;
+}
+
+#codeEditor {
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+#editor-wrapper {
+    width: 70%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:3em;
+}
+
+#username {
+    color: #989898 ;
+}
+
+.cuser {
+    color: #999;
+}
+
+.ouser {
+    color: #fff;
 }

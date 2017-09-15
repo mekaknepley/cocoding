@@ -1,0 +1,127 @@
+
+<!--<form action="/createroom" method="POST">-->
+    <!--<button type="submit">CREATE ROOM</button>-->
+<!--</form>-->
+<nav class="blue-grey darken-4">
+    <div class="nav-wrapper">
+        <div id="navPosition">
+            <img id="robotsSize"src="img/logorobot.png" alt="robotlogo">
+            <a id="logo-container " href="/" class="brand-logo">coCodingLive</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li>{{username}}</li>
+                <li><a href="/companies">Companies</a></li>
+                <li><a href="/classrooms">Classrooms</a></li>
+                <li><a class="btn" href="/logout">Sign Out</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+        <div id="spaceDiv2"></div>
+        <div class="row" id="texture">
+            <div class="col s12">
+                <div class="row"></div>
+                <div class="row"></div>
+
+                <h5 class="black-text center" id="howWorksTitle">Create a classroom here</h5>
+                <hr>
+                <div class="row"></div>
+            </div>
+            <div class="row">
+                <div class="col s3"></div>
+                <div class="col s3 m3 center">
+                    <div class="card  white center">
+                        <div class="card-content black-text hoverable z-depth-4">
+                            <i class="large material-icons white" id="icons">person_add</i>
+                            <span class="card-title">Create Classroom</span>
+                            <p>Create a new classroom by clicking the "Create" button. You can also delete a classroom by clicking                                 the "Delete" button.</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="/createroom">Create</a>
+                            <a href="#">Delete</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col s3 m3">
+                    <div class="card  white center">
+                        <div class="card-content black-text center hoverable z-depth-4">
+                            <i class="large material-icons white" id="icons">supervisor_account</i>
+                            <span class="card-title">Join Classroom</span>
+                            <p></p>
+                        </div>
+                        <div class="card-action">
+                                {{#each rooms}}
+                            <a href="/terminal/{{id}}">OPEN ROOM {{id}}</a><a href="/deleteroom/{{id}}">DELETE ROOM {{id}}</a><br>
+                                {{/each}}
+                            <!--<a href="#">This is a link</a>-->
+                        </div>
+
+                        <div class="card-action">
+                            {{#each rooms}}
+                                <a href="/terminal/{{id}}">OPEN ROOM {{id}}</a><a href="/deleteroom/{{id}}">DELETE ROOM {{id}}</a><br>
+                            {{/each}}
+                            <!--<a href="#">This is a link</a>-->
+                        </div>
+                    </div>
+                </div>
+                <div class="col s3"></div>
+            </div>
+
+
+
+        </div>
+    </div>
+    <div id="spaceDiv"></div>
+    <div class="parallax"><img src="img/roomimage4.png" alt="Unsplashed background img 1"></div>
+</div>
+
+
+
+<footer class="page-footer blue-grey darken-4">
+    <div class="container">
+        <div class="row">
+            <div class="col l6 s12">
+                <h5 class="white-text">coCodingLive</h5>
+            </div>
+            <div class="col l3 s12">
+                <h5 class="white-text">About the team</h5>
+                <ul>
+                    <li><a class="white-text" href="https://github.com/jaycen9887">Jacyen Milling</a></li>
+                    <li><a class="white-text" href="https://github.com/mekaknepley">Meka Knepley</a></li>
+                    <li><a class="white-text" href="https://github.com/shelbina">Shelby Deel</a></li>
+                    <!--<li><a class="white-text" href="#!">Link 4</a></li>-->
+                </ul>
+            </div>
+            <div class="col l3 s12">
+                <h5 class="white-text">Contact Us</h5>
+                <!--<ul>-->
+                <!--<li><a class="white-text" href="#!">Link 1</a></li>-->
+                <!--<li><a class="white-text" href="#!">Link 2</a></li>-->
+                <!--<li><a class="white-text" href="#!">Link 3</a></li>-->
+                <!--<li><a class="white-text" href="#!">Link 4</a></li>-->
+                <!--</ul>-->
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <div class="container">
+        </div>
+    </div>
+    <h7> © 2017 coCodingLive</h7>
+</footer>
+
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+<script>
+    $(document).ready(function() {
+        // the "href" attribute of the modal trigger must specify the modal ID that wants to be triggered
+        $('.modal').modal();
+
+        $('.button-collapse').sideNav();
+        $('.parallax').parallax();
+    });
+</script>

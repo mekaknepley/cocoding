@@ -1,0 +1,39 @@
+2017-09-13T13:42:06.088173000 40.069931s notice: Recursively removing directory /Users/meka/cocoding/rethinkdb_data/tmp
+2017-09-13T13:42:06.095384000 40.077148s notice: Initializing directory /Users/meka/cocoding/rethinkdb_data
+2017-09-13T13:42:06.095520000 40.077278s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/Users/meka/cocoding/rethinkdb_data' did not already exist or is empty.)
+2017-09-13T13:42:06.095555000 40.077312s notice: Running rethinkdb 2.3.6 (CLANG 8.1.0 (clang-802.0.42))...
+2017-09-13T13:42:06.116560000 40.098319s notice: Running on Darwin 16.7.0 x86_64
+2017-09-13T13:42:06.116640000 40.098398s notice: Loading data from directory /Users/meka/cocoding/rethinkdb_data
+2017-09-13T13:42:06.289667000 40.271425s info: Automatically using cache size of 100 MB
+2017-09-13T13:42:06.289678000 40.271435s warn: Cache size does not leave much memory for server and query overhead (available memory: 774 MB).
+2017-09-13T13:42:06.289683000 40.271440s warn: Cache size is very low and may impact performance.
+2017-09-13T13:42:06.292198000 40.273955s notice: Listening for intracluster connections on port 29015
+2017-09-13T13:42:06.298037000 40.279794s notice: Listening for client driver connections on port 28015
+2017-09-13T13:42:06.298216000 40.279974s notice: Listening for administrative HTTP connections on port 8080
+2017-09-13T13:42:06.298221000 40.279978s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2017-09-13T13:42:06.298227000 40.279984s notice: Listening on driver addresses: 127.0.0.1, ::1
+2017-09-13T13:42:06.298230000 40.279987s notice: Listening on http addresses: 127.0.0.1, ::1
+2017-09-13T13:42:06.298235000 40.279992s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2017-09-13T13:42:06.298240000 40.279997s notice: Server ready, "Jamikas_MacBook_Air_local_4cv" 5a68da9c-98c0-4fc2-a790-3e6c156be2dc
+2017-09-13T13:43:46.994540000 140.971215s notice: Server got SIGINT from pid 68093, uid 501; shutting down...
+2017-09-13T13:43:46.996096000 140.972772s notice: Shutting down client connections...
+2017-09-13T13:43:46.997667000 140.974343s notice: All client connections closed.
+2017-09-13T13:43:46.997688000 140.974363s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2017-09-13T13:43:47.002441000 140.979117s notice: Storage engine shut down.
+2017-09-13T13:44:31.239347000 40.034906s notice: Running rethinkdb 2.3.6 (CLANG 8.1.0 (clang-802.0.42))...
+2017-09-13T13:44:31.263457000 40.059010s notice: Running on Darwin 16.7.0 x86_64
+2017-09-13T13:44:31.263521000 40.059074s notice: Loading data from directory /Users/meka/cocoding/rethinkdb_data
+2017-09-13T13:44:31.307511000 40.103064s info: Automatically using cache size of 100 MB
+2017-09-13T13:44:31.307523000 40.103075s warn: Cache size does not leave much memory for server and query overhead (available memory: 757 MB).
+2017-09-13T13:44:31.307528000 40.103080s warn: Cache size is very low and may impact performance.
+2017-09-13T13:44:31.308170000 40.103722s notice: Listening for intracluster connections on port 29015
+2017-09-13T13:44:31.309638000 40.105190s notice: Listening for client driver connections on port 28015
+2017-09-13T13:44:31.309786000 40.105338s notice: Listening for administrative HTTP connections on port 8080
+2017-09-13T13:44:31.309788000 40.105341s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2017-09-13T13:44:31.309792000 40.105345s notice: Listening on driver addresses: 127.0.0.1, ::1
+2017-09-13T13:44:31.309794000 40.105346s notice: Listening on http addresses: 127.0.0.1, ::1
+2017-09-13T13:44:31.309798000 40.105350s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2017-09-13T13:44:31.309802000 40.105354s notice: Server ready, "Jamikas_MacBook_Air_local_4cv" 5a68da9c-98c0-4fc2-a790-3e6c156be2dc
+2017-09-13T13:44:42.629406000 51.424388s info: Table 298a26da-a5df-4da5-8f0f-8fedbd7f843e: Starting a new Raft election for term 1.
+2017-09-13T13:44:42.630028000 51.425010s info: Table 298a26da-a5df-4da5-8f0f-8fedbd7f843e: Added replica on this server.
+2017-09-13T13:44:42.653057000 51.448039s info: Table 298a26da-a5df-4da5-8f0f-8fedbd7f843e: This server is Raft leader for term 1. Latest log index is 0.

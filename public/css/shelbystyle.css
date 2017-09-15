@@ -3,22 +3,22 @@ body {
     min-height: 100vh;
     flex-direction: column;
     background: #cfd8dc;
-    color: white;   
+    color: white;
   }
 
   main {
     flex: 1 0 auto;
   }
-  
+
   .terminal {
     background-color: black;
   }
-  
+
 .side-nav {
     background: #cfd8dc;
   }
 
-  h4 {
+  #lanText {
     color:#2bbbad;
   }
 
@@ -30,13 +30,13 @@ body {
     list-style-type:none;
     margin:0;
   }
-  li {
-    word-wrap: break-word; 
-    display:inline-block;
-    width:100%;
-    padding:3px;
-    border-bottom:1px solid #cfd8dc;
-  }
+  /*li {*/
+    /*word-wrap: break-word; */
+    /*display:inline-block;*/
+    /*width:100%;*/
+    /*padding:3px;*/
+    /*border-bottom:1px solid #cfd8dc;*/
+  /*}*/
 
   .collapsible-body {
     color: black;
@@ -46,7 +46,7 @@ body {
     border-style: outset;
     border-color:#01579b;
     border-width: 3px;
-    background:black;
+    background:grey;
     height:450px;
   }
 
@@ -55,7 +55,8 @@ body {
     border-color:#01579b;
     border-width: 3px;
     background:black;
-    height:450px;
+    height:200px;
+    width: 300px;
   }
 
   .terminal{
