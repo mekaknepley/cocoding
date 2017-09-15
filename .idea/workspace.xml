@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc34fec3-ee93-4d1d-aafa-2dd7766ccdc6" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/shelbystyle.css" afterPath="$PROJECT_DIR$/public/css/shelbystyle.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/classrooms.handlebars" afterPath="$PROJECT_DIR$/views/classrooms.handlebars" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/terminal.handlebars" afterPath="$PROJECT_DIR$/views/terminal.handlebars" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -69,8 +72,18 @@
       <file leaf-file-name="classrooms.handlebars" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/classrooms.handlebars">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1962">
-              <caret line="105" column="14" lean-forward="true" selection-start-line="105" selection-start-column="14" selection-end-line="105" selection-end-column="14" />
+            <state relative-caret-position="283">
+              <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="shelbystyle.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/css/shelbystyle.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="61" column="12" lean-forward="true" selection-start-line="61" selection-start-column="12" selection-end-line="61" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -79,8 +92,8 @@
       <file leaf-file-name="terminal.handlebars" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/terminal.handlebars">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="981">
-              <caret line="118" column="16" lean-forward="false" selection-start-line="118" selection-start-column="16" selection-end-line="118" selection-end-column="16" />
+            <state relative-caret-position="-8371">
+              <caret line="23" column="39" lean-forward="true" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -101,16 +114,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="18">
               <caret line="60" column="87" lean-forward="false" selection-start-line="60" selection-start-column="87" selection-end-line="60" selection-end-column="87" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="database.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/database.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -148,8 +151,8 @@
       <find>code</find>
       <find>signup</find>
       <find>loginModal</find>
-      <find>black</find>
       <find>bla</find>
+      <find>black</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -179,17 +182,17 @@
         <option value="$PROJECT_DIR$/config/database.js" />
         <option value="$PROJECT_DIR$/schema.sql" />
         <option value="$PROJECT_DIR$/public/css/landingpage.css" />
-        <option value="$PROJECT_DIR$/public/css/shelbystyle.css" />
         <option value="$PROJECT_DIR$/public/css/jaycen.css" />
         <option value="$PROJECT_DIR$/public/js/jaycen.js" />
         <option value="$PROJECT_DIR$/views/layouts/jaycen.handlebars" />
         <option value="$PROJECT_DIR$/views/layouts/main.handlebars" />
-        <option value="$PROJECT_DIR$/views/terminal.handlebars" />
         <option value="$PROJECT_DIR$/controllers/controller.js" />
         <option value="$PROJECT_DIR$/config/passport.js" />
         <option value="$PROJECT_DIR$/views/roomlist.handlebars" />
         <option value="$PROJECT_DIR$/views/companies.handlebars" />
         <option value="$PROJECT_DIR$/views/landingpage.handlebars" />
+        <option value="$PROJECT_DIR$/views/terminal.handlebars" />
+        <option value="$PROJECT_DIR$/public/css/shelbystyle.css" />
         <option value="$PROJECT_DIR$/views/classrooms.handlebars" />
       </list>
     </option>
@@ -279,6 +282,12 @@
               <item name="cocoding" type="b2602c69:ProjectViewProjectNode" />
               <item name="cocoding" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cocoding" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cocoding" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -344,12 +353,12 @@
       <workItem from="1504106274099" duration="70803000" />
       <workItem from="1504554233928" duration="1643000" />
       <workItem from="1504558632847" duration="147566000" />
-      <workItem from="1505324450614" duration="47315000" />
+      <workItem from="1505324450614" duration="50033000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="267327000" />
+    <option name="totallyTimeSpent" value="270045000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="13" y="52" width="1400" height="785" extended-state="0" />
@@ -518,14 +527,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/shelbystyle.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="11" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="76" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/css/jaycen.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="97">
@@ -646,14 +647,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/terminal.handlebars">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="981">
-          <caret line="118" column="16" lean-forward="false" selection-start-line="118" selection-start-column="16" selection-end-line="118" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/js/jaycen.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -710,10 +703,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/shelbystyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="61" column="12" lean-forward="true" selection-start-line="61" selection-start-column="12" selection-end-line="61" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/terminal.handlebars">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8371">
+          <caret line="23" column="39" lean-forward="true" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/views/classrooms.handlebars">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1962">
-          <caret line="105" column="14" lean-forward="true" selection-start-line="105" selection-start-column="14" selection-end-line="105" selection-end-column="14" />
+        <state relative-caret-position="283">
+          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
           <folding />
         </state>
       </provider>
