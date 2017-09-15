@@ -36,7 +36,7 @@ module.exports = router;
         }
     });
 
-    router.get('/terminal/room=:roomId&user=:username', isLoggedIn, function (req, res) {
+    router.get('/terminal/:roomId', isLoggedIn, function (req, res) {
 
         console.log("rendering terminal for " + req.params.roomId);
 
@@ -112,7 +112,7 @@ module.exports = router;
             var insertQuery = "INSERT INTO " + dbconfig.rooms_table + "( sessionId ) VALUES (?)";
             connection.query(insertQuery, [session.sessionId], function(err, rows){
                 console.log("created room " + rows.insertId);
-                var roomId = rows.insertId
+                var roomId = rows.insertId;
                 res.redirect('/terminal/'+roomId);
             });
         });
