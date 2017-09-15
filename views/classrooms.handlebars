@@ -28,7 +28,7 @@
                     <h6 class="black-text" >-Jaycen Milling, Full Stack developer</h6>
                 </div>
                 <div class="row" id="howWorksTitle"></div>
-                <h5 class="header col s12 light"><a class="btn modal-trigger pulse" data-target="loginModal" href="#loginModal">Start                       Now</a></h5>
+                <h5 class="header col s12 light"><a class="btn modal-trigger pulse" data-target="signUpModal" href="#signUpModal">Start                       Now</a></h5>
 
             </div>
         </div>
@@ -100,7 +100,7 @@
                     <h6 class="black-text" >-Shelby Deel, Frontend developer</h6>
                 </div>
                 <div class="row" id="howWorksTitle"></div>
-                <h5 class="header col s12 light"><a class="btn modal-trigger pulse" data-target="loginModal" href="#loginModal">Start                       Now</a></h5>
+                <h5 class="header col s12 light"><a class="btn modal-trigger pulse" data-target="signUpModal" href="#loginModal">Start                       Now</a></h5>
 
             </div>
         </div>
@@ -127,16 +127,15 @@
     </div>
 </div>
 
-
-<div id="loginModal" class="modal modal-fixed-footer center authModal blue">
-    <div id="loginBox">
+<div id="signUpModal" class="modal modal-fixed-footer center authModal blue">
+    <div id="signUpBox">
         <div class="content">
-            <div class="title">coCodingLive Login</div>
-            <input id="loginUsername" type="text" placeholder="Coder Name"/>
-            <input id="loginPassword" type="password" placeholder="Password"/>
+            <div class="title">coCodingLive Sign Up</div>
+            <input id="signUpUsername" type="text" placeholder="Coder Name"/>
+            <input id="signUpPassword" type="password" placeholder="Password"/>
             <input type="checkbox" id="rememberMe"/>
             <label for="rememberMe"></label><span>I have read and agree to the <a href="#">Terms of Use </a>and <a href="#">Privacy                Policy</a></span>
-            <button id="loginSubmit">Sign In</button>
+            <button id="signUpSubmit">Sign Up</button>
             <div class="social"> <span>or sign in with social media</span></div>
             <div class="buttons">
                 <button class="facebook"><i class="fa fa-facebook"></i>Facebook</button>
@@ -205,5 +204,37 @@
     $(".google").click(function(){
         window.location.href="/auth/google";
     });
-    
+
+    $("#loginSubmit").click(function() {
+        var username = $("#loginUsername").val().trim();
+        var password = $("#loginPassword").val().trim();
+
+        var jqxhr = $.post( "/login", { username:username, password:password }, function() {
+            console.log( "Sent Login" );
+        })
+                .done(function(response) {
+                    //console.log(response);
+                    window.location.href = "/room";
+                })
+                .fail(function() {
+                    console.log( "Login Fail" );
+                });
+
+    });
+
+    $("#signUpSubmit").click(function(){
+        var username = $("#signUpUsername").val().trim();
+        var password = $("#signUpPassword").val().trim();
+
+        var jqxhr = $.post( "/signup", { username:username, password:password }, function() {
+            console.log( "Sent Sign Up" );
+        })
+                .done(function(response) {
+                    //console.log(response);
+                    window.location.href = "/room";
+                })
+                .fail(function() {
+                    console.log( "Sign Up Fail" );
+                });
+    });
 </script>

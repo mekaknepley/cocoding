@@ -21,14 +21,14 @@
 
             <div class="row">
                 <div class="col s6">
-            <div id="signUpBox">
+            <div id="signUpBoxMainPage">
                 <div class="content">
                     <div class="title">Coder Sign Up</div>
-                    <input id="signUpUsername" type="text" placeholder="Coder Name"/>
-                    <input id="signUpPassword" type="password" placeholder="Password"/>
+                    <input id="signUpUsernameMainPage" type="text" placeholder="Coder Name"/>
+                    <input id="signUpPasswordMainPage" type="password" placeholder="Password"/>
                     <input type="checkbox" id="rememberMe"/>
                     <label for="rememberMe"></label><span>I have read and agree to the <a href="#">Terms of Use </a>and <a href="#">Privacy Policy</a></span>
-                    <button id="signUpSubmit">Create Account</button>
+                    <button id="signUpSubmitMainPage">Create Account</button>
                     <div class="social"> <span>or sign up with social media</span></div>
                     <div class="buttons">
                         <button class="facebook"><i class="fa fa-facebook"></i>Facebook</button>
@@ -150,7 +150,7 @@
                 <div class="col s12"id="div3Info"></div>
                 <!--<div class="col s12"id="div3Info"><h4>Start Learning to Code Today</h4></div>-->
                 <div class="row" id="howWorksTitle">Start Learning to Code Today</div>
-                <h5 class="header col s12 light"><a class="btn modal-trigger pulse" data-target="loginModal" href="#loginModal">Start                       Now</a></h5>
+                <h5 class="header col s12 light"><a class="btn modal-trigger pulse" data-target="signUpModal" href="#signUpModal">Start                       Now</a></h5>
             </div>
         </div>
     </div>
@@ -173,8 +173,28 @@
                 <button class="google"><i class="fa fa-google-plus"></i>Google</button>
             </div>
         </div>
+    </div>
 </div>
+
+<div id="signUpModal" class="modal modal-fixed-footer center authModal blue">
+    <div id="signUpBox">
+        <div class="content">
+            <div class="title">coCodingLive Sign Up</div>
+            <input id="signUpUsername" type="text" placeholder="Coder Name"/>
+            <input id="signUpPassword" type="password" placeholder="Password"/>
+            <input type="checkbox" id="rememberMe"/>
+            <label for="rememberMe"></label><span>I have read and agree to the <a href="#">Terms of Use </a>and <a href="#">Privacy                Policy</a></span>
+            <button id="signUpSubmit">Sign Up</button>
+            <div class="social"> <span>or sign in with social media</span></div>
+            <div class="buttons">
+                <button class="facebook"><i class="fa fa-facebook"></i>Facebook</button>
+                <button class="twitter"><i class="fa fa-twitter"></i>Twitter</button>
+                <button class="google"><i class="fa fa-google-plus"></i>Google</button>
+            </div>
+        </div>
+    </div>
 </div>
+
 
 <footer class="page-footer blue-grey darken-4">
     <div class="container">
@@ -235,6 +255,22 @@
 
     $(".google").click(function(){
         window.location.href="/auth/google";
+    });
+
+    $("#signUpSubmitMainPage").click(function(){
+        var username = $("#signUpUsernameMainPage").val().trim();
+        var password = $("#signUpPasswordMainPage").val().trim();
+
+        var jqxhr = $.post( "/signup", { username:username, password:password }, function() {
+            console.log( "Sent Sign Up" );
+        })
+                .done(function(response) {
+                    //console.log(response);
+                    window.location.href = "/room";
+                })
+                .fail(function() {
+                    console.log( "Sign Up Fail" );
+                });
     });
 
     $("#signUpSubmit").click(function(){
