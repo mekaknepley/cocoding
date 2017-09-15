@@ -172,11 +172,31 @@ module.exports = router;
             }
         });
 
+    app.get('/auth/google',
+        passport.authenticate('google', { scope: ['profile'] }));
+
+    app.get('/auth/google/callback',
+        passport.authenticate('google', { failureRedirect: '/' }),
+        function(req, res) {
+            // Successful authentication, redirect home.
+            res.redirect('/room');
+        });
+
     app.get('/auth/facebook',
         passport.authenticate('facebook'));
 
     app.get('/auth/facebook/callback',
         passport.authenticate('facebook', { failureRedirect: '/' }),
+        function(req, res) {
+            // Successful authentication, redirect home.
+            res.redirect('/room');
+        });
+
+    app.get('/auth/twitter',
+        passport.authenticate('twitter'));
+
+    app.get('/auth/twitter/callback',
+        passport.authenticate('twitter', { failureRedirect: '/' }),
         function(req, res) {
             // Successful authentication, redirect home.
             res.redirect('/room');

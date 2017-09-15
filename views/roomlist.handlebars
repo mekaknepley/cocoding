@@ -53,19 +53,13 @@
                             <span class="card-title">Join Classroom</span>
                             <p></p>
                         </div>
-                        <div class="card-action">
                                 {{#each rooms}}
-                            <a href="/terminal/{{id}}">OPEN ROOM {{id}}</a><a href="/deleteroom/{{id}}">DELETE ROOM {{id}}</a><br>
+                                <div class="card-action">
+                                    <a href="/terminal/{{id}}">OPEN ROOM {{id}}</a>
+                                    <a href="/deleteroom/{{id}}">DELETE ROOM {{id}}</a>
+                                </div>
                                 {{/each}}
                             <!--<a href="#">This is a link</a>-->
-                        </div>
-
-                        <div class="card-action">
-                            {{#each rooms}}
-                                <a href="/terminal/{{id}}">OPEN ROOM {{id}}</a><a href="/deleteroom/{{id}}">DELETE ROOM {{id}}</a><br>
-                            {{/each}}
-                            <!--<a href="#">This is a link</a>-->
-                        </div>
                     </div>
                 </div>
                 <div class="col s3"></div>

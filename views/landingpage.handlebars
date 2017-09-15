@@ -229,6 +229,14 @@
         window.location.href="/auth/facebook";
     });
 
+    $(".twitter").click(function(){
+        window.location.href="/auth/twitter";
+    });
+
+    $(".google").click(function(){
+        window.location.href="/auth/google";
+    });
+
     $("#signUpSubmit").click(function(){
         var username = $("#signUpUsername").val().trim();
         var password = $("#signUpPassword").val().trim();
