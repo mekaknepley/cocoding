@@ -24,10 +24,10 @@ module.exports = function(app, passport, opentok) {
     /******************* ******** *******************/
 
     if (process.env.JAWSDB_MARIA_URL) {
+        console.log("Using" + process.env.JAWSDB_MARIA_URL);
         connection = mysql.createConnection(process.env.JAWSDB_MARIA_URL);
     } else {
         connection = mysql.createConnection(dbconfig.localdbconnection);
-        connection.query('USE ' + dbconfig.database);
     }
 
     connection.connect(function(err) {
