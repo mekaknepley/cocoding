@@ -1,4 +1,4 @@
-$(document).ready(function(){
+(function(){
     var code = $("#editor-value")[0];
     var editor = CodeMirror.fromTextArea(code, {
         lineNumbers: true,
@@ -94,4 +94,4 @@ $(document).ready(function(){
         $('#editor-value').focus();
     });*/
 
-});
+})();
