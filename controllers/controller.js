@@ -21,8 +21,6 @@ module.exports = function(app, passport, opentok) {
         }
     });
 
-    connection.query('USE ' + dbconfig.database);
-
 // Export routes for server.js to use.
 module.exports = router;
 
