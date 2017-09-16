@@ -23,8 +23,6 @@ connection.connect(function(err) {
     }
 });
 
-connection.query('USE ' + dbconfig.database);
-
 module.exports = function(passport) {
     passport.serializeUser(function(user, done){
         done(null, user.id);
