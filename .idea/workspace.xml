@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc34fec3-ee93-4d1d-aafa-2dd7766ccdc6" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/passport.js" afterPath="$PROJECT_DIR$/config/passport.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -41,8 +42,8 @@
       <file leaf-file-name="passport.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/passport.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="23" column="3" lean-forward="false" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
+            <state relative-caret-position="351">
+              <caret line="105" column="61" lean-forward="false" selection-start-line="105" selection-start-column="61" selection-end-line="105" selection-end-column="61" />
               <folding />
             </state>
           </provider>
@@ -329,12 +330,12 @@
       <workItem from="1504106274099" duration="70803000" />
       <workItem from="1504554233928" duration="1643000" />
       <workItem from="1504558632847" duration="147566000" />
-      <workItem from="1505324450614" duration="56578000" />
+      <workItem from="1505324450614" duration="56885000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="276590000" />
+    <option name="totallyTimeSpent" value="276897000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="13" y="52" width="1400" height="785" extended-state="0" />
@@ -702,8 +703,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/passport.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="23" column="3" lean-forward="false" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
+        <state relative-caret-position="351">
+          <caret line="105" column="61" lean-forward="false" selection-start-line="105" selection-start-column="61" selection-end-line="105" selection-end-column="61" />
           <folding />
         </state>
       </provider>
