@@ -40,5 +40,46 @@ $(document).ready(function(){
     $('#CSS').on('click', function(){
         editor.replaceRange('body {\n    background-color: white; \n}');
     });
+    
+    // Initialize Firebase configuration
+    var config = {
+        apiKey: "AIzaSyClQP9Fg9deVgrwupRCCxbcClvLFMR0AnQ",
+        authDomain: "realtime-e3651.firebaseapp.com",
+        databaseURL: "https://realtime-e3651.firebaseio.com",
+        projectId: "realtime-e3651",
+        storageBucket: "realtime-e3651.appspot.com",
+        messagingSenderId: "67777252179"
+    };
+    
+    firebase.initializeApp(config);
+
+    var database = firebase.database();
+    var roomsdb = database.ref().child('rooms');
+    var url = window.location.href; 
+    var url = url.split('/');
+    var roomNum = url[url.length -1];
+    var room = roomsdb.child(roomNum);
+    console.log(roomNum);
+
+    function write(){
+        var data = editor.getValue();
+        console.log(data);
+        roomsdb.update({[room]: data});
+    }
+
+    room.on('value', function(snapshot){
+       console.log(snapshot.val());
+       var val = snapshot.val(); editor.replaceRange(JSON.stringify(val, null, 3));
+    });
+    
+    editor.on('change', function(changes){
+       write(); 
+        console.log(changes);
+    });
+
+    /*$('#editor-value').keyup(function(){
+       write();
+        $('#editor-value').focus();
+    });*/
 
 });

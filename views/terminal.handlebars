@@ -315,7 +315,7 @@
             </div> <!-- END NAV -->
 
             <form id="preview-form">
-                <textarea class="codemirror-textarea" name="editor-value" id="editor-value" rows="4" cols="10"></textarea>
+                <textarea class="codemirror-textarea" name="editor-value" id="editor-value" rows="4" cols="10" onkeyup="write()"></textarea>
                 <br>
                 <input type="submit" name="submit" id="submit" value="submit">
             </form>
@@ -708,4 +708,9 @@
     // Connect to the Session using the 'apiKey' of the application and a 'token' for permission
     session.connect(token);
 
+</script>
+    
+<!-- FIREBASE -->  
+<script>
+    
 </script>
