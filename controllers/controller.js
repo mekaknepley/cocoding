@@ -76,7 +76,23 @@ module.exports = router;
         });
         //res.render("terminal", { username: req.user.username });
         /********** FIREBASE *********/
-        roomsdb.update({[room]:'<h1>Hello World!</h1>'});
+        /*roomsdb.update({[room]:'<h1>Hello World!</h1>'});*/
+        var editor = document.getElementById('editor-value').val();
+         function write(){
+            var data = editor;
+            console.log(data);
+            roomsdb.update({[room]: data});
+        }
+
+        room.on('value', function(snapshot){
+           console.log(snapshot.val());
+           var val = snapshot.val(); editor.replaceRange(JSON.stringify(val, null, 3));
+        });
+
+        editor.on('change', function(changes){
+           write(); 
+            console.log(changes);
+        });
         /********** ******** *********/
     });
 
@@ -123,7 +139,24 @@ module.exports = router;
                 token: token});
         });
         /********** FIREBASE *********/
-        roomsdb.update({[room]:'<h1>Hello World!</h1>'});
+        /*roomsdb.update({[room]:'<h1>Hello World!</h1>'});*/
+        var editor = $('#editor-value');
+        function write(){
+            var data = editor.getValue();
+            console.log(data);
+            roomsdb.update({[room]: data});
+        }
+
+        room.on('value', function(snapshot){
+           console.log(snapshot.val());
+           var val = snapshot.val(); editor.replaceRange(JSON.stringify(val, null, 3));
+        });
+
+        editor.on('change', function(changes){
+           write(); 
+            console.log(changes);
+        });
+
         /********** ******** *********/
     });
 
@@ -253,4 +286,3 @@ function isLoggedIn(req, res, next) {
     // if they aren't redirect them to the home page
     res.redirect('/');
 }
-
