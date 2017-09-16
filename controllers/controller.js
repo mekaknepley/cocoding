@@ -6,9 +6,25 @@ module.exports = function(app, passport, opentok) {
     var mysql = require('mysql');
     var dbconfig = require('../config/database');
     var connection;
+    var firebase = require('firebase');
+    
+    /******************* FIREBASE *******************/
+    var config = {
+        apiKey: "AIzaSyClQP9Fg9deVgrwupRCCxbcClvLFMR0AnQ",
+        authDomain: "realtime-e3651.firebaseapp.com",
+        databaseURL: "https://realtime-e3651.firebaseio.com",
+        projectId: "realtime-e3651",
+        storageBucket: "realtime-e3651.appspot.com",
+        messagingSenderId: "67777252179"
+    };
+        firebase.initializeApp(config);
 
-    if (process.env.JAWSDB_URL) {
-        connection = mysql.createConnection(process.env.JAWSDB_URL);
+        var db = firebase.database();
+        var roomsdb = db.ref().child('rooms');
+    /******************* ******** *******************/
+
+    if (process.env.JAWSDB_MARIA_URL) {
+        connection = mysql.createConnection(process.env.JAWSDB_MARIA_URL);
     } else {
         connection = mysql.createConnection(dbconfig.localdbconnection);
     }
@@ -35,7 +51,7 @@ module.exports = router;
     });
 
     router.get('/terminal/:roomId', isLoggedIn, function (req, res) {
-
+        var room = req.params.roomId;
         console.log("rendering terminal for " + req.params.roomId);
 
         var roomQuery = "SELECT * FROM " + dbconfig.rooms_table + " WHERE id = (?)";
@@ -56,6 +72,9 @@ module.exports = router;
                 token: token});
         });
         //res.render("terminal", { username: req.user.username });
+        /********** FIREBASE *********/
+        roomsdb.update({[room]:'<h1>Hello World!</h1>'});
+        /********** ******** *********/
     });
 
     router.get('/login', function (req, res) {
@@ -87,36 +106,45 @@ module.exports = router;
     });
 
     router.get("/room/:roomId", function(req,res){
+        var room = req.params.roomId;
+        var roomQuery = "SELECT * FROM " + dbconfig.rooms_table + " WHERE id = (?)";
+        connection.query(roomQuery, [req.params.roomId], function(err, rows) {
 
-            var roomQuery = "SELECT * FROM " + dbconfig.rooms_table + " WHERE id = (?)";
-            connection.query(roomQuery, [req.params.roomId], function(err, rows) {
+            // generate a fresh token for this client
+            var token = opentok.generateToken(rows[0].sessionId);
 
-                // generate a fresh token for this client
-                var token = opentok.generateToken(rows[0].sessionId);
-
-                res.render("opentok", {
-                    id: req.params.roomId,
-                    apiKey: "45957952",
-                    sessionId: rows[0].sessionId,
-                    token: token});
-            });
+            res.render("opentok", {
+                id: req.params.roomId,
+                apiKey: "45957952",
+                sessionId: rows[0].sessionId,
+                token: token});
+        });
+        /********** FIREBASE *********/
+        roomsdb.update({[room]:'<h1>Hello World!</h1>'});
+        /********** ******** *********/
     });
 
     router.get("/createroom", function(req,res){
+          
+        var room;
         opentok.createSession(function(err, session) {
             if (err) throw err;
-
             // Store session.sessionId in the database
             var insertQuery = "INSERT INTO " + dbconfig.rooms_table + "( sessionId ) VALUES (?)";
             connection.query(insertQuery, [session.sessionId], function(err, rows){
                 console.log("created room " + rows.insertId);
                 var roomId = rows.insertId;
+                room = roomId;
                 res.redirect('/terminal/'+roomId);
             });
         });
+        /********** FIREBASE *********/
+        roomsdb.update({[room]:'<h1>Hello World!</h1>'});
+        /********** ******** *********/
     });
 
     router.post("/createroom", function(req,res){
+        var room;
         opentok.createSession(function(err, session) {
             if (err) throw err;
 
@@ -125,9 +153,13 @@ module.exports = router;
             connection.query(insertQuery, [session.sessionId], function(err, rows){
                 console.log("created room " + rows.insertId);
                 var roomId = rows.insertId;
+                room = roomId;
                 res.redirect('/terminal/'+roomId);
             });
         });
+        /********** FIREBASE *********/
+        roomsdb.update({[room]:'<h1>Hello World!</h1>'});
+        /********** ******** *********/
     });
 
     router.get("/deleteroom/:roomId", function(req,res) {
