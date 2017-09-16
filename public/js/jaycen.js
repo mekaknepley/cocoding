@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    var code = $(".codemirror-textarea")[0];
+    var code = $("#editor-value")[0];
     var editor = CodeMirror.fromTextArea(code, {
         lineNumbers: true,
         lineWrapping: true,
@@ -7,7 +7,7 @@ $(document).ready(function(){
         theme: "rubyblue",
         keymap: 'sublime',
         extraKeys: {"Ctrl-Space": "autocomplete"},
-        value:document.documentElement.innerHTML
+        value:document.documentElement.innerHTML,
     });
 
     $('#preview-form').submit(function(e){
@@ -54,27 +54,39 @@ $(document).ready(function(){
     firebase.initializeApp(config);
 
     var database = firebase.database();
-    var roomsdb = database.ref().child('rooms');
-    var url = window.location.href; 
+    var rooms = database.ref().child('rooms');
+    var content = rooms.child('content');
+	
+    /*var url = window.location.href; 
     var url = url.split('/');
     var roomNum = url[url.length -1];
     var room = roomsdb.child(roomNum);
-    console.log(roomNum);
+    console.log(roomNum);*/
 
     function write(){
-        var data = editor.getValue();
-        console.log(data);
-        roomsdb.update({[room]: data});
+        /*var data = editor.getValue();
+        console.log(data);*/
+        roomsdb.update({content: data});
     }
 
-    room.on('value', function(snapshot){
+    content.on('value', function(snapshot){
        console.log(snapshot.val());
-       var val = snapshot.val(); editor.replaceRange(JSON.stringify(val, null, 3));
+        var data = snapshot.val();
+		var cursor = editor.getCursor();
+		var cursorLine = cursor.line;
+		var cursorCh = cursor.ch;
+        editor.getDoc().setValue(data);
+		
+		console.log(" cl: " + cursorLine + " ch: " + cursorCh);
+		editor.setCursor({line: cursorLine, ch:cursorCh});
+		editor.focus();
     });
     
-    editor.on('change', function(changes){
-       write(); 
-        console.log(changes);
+	var data;
+    editor.on('change', function(cm){
+       data = cm.getValue();
+			//var data = editor.getValue();
+            write();
     });
 
     /*$('#editor-value').keyup(function(){
