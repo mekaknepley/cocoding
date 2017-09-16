@@ -8,8 +8,9 @@ var bcrypt = require('bcrypt-nodejs');
 var dbconfig = require('./database');
 var connection;
 
-if (process.env.JAWSDB_URL) {
-    connection = mysql.createConnection(process.env.JAWSDB_URL);
+if (process.env.JAWSDB_MARIA_URL) {
+    console.log("Using" + process.env.JAWSDB_MARIA_URL);
+    connection = mysql.createConnection(process.env.JAWSDB_MARIA_URL);
 } else {
     connection = mysql.createConnection(dbconfig.localdbconnection);
 }
@@ -21,8 +22,6 @@ connection.connect(function(err) {
         console.log("passport connected to db");
     }
 });
-
-connection.query('USE ' + dbconfig.database);
 
 module.exports = function(passport) {
     passport.serializeUser(function(user, done){
@@ -38,7 +37,7 @@ module.exports = function(passport) {
     passport.use(new GoogleStrategy({
             clientID: "1000413859626-g2i1rnldakna4h0im7bpnkpr8s1kcuhi.apps.googleusercontent.com",
             clientSecret: "5oiWCK1Z3odfFip-qXcRuIJc",
-            callbackURL: "http://localhost:3000/auth/google/callback"
+            callbackURL: "https://cocodinglive.herokuapp.com/auth/google/callback"
         },
         function(accessToken, refreshToken, profile, done) {
             console.log(profile);
@@ -71,7 +70,7 @@ module.exports = function(passport) {
     passport.use(new TwitterStrategy({
             consumerKey: "DZlP0cCEvpHpQNLM3mYFVoFmU",
             consumerSecret: "Ju3anoXD8hPDMnZhvDqshxuOwcSryG9wmQwTcg9S4znYZogkgI",
-            callbackURL: "http://localhost:3000/auth/twitter/callback"
+            callbackURL: "https://cocodinglive.herokuapp.com/auth/twitter/callback"
         },
         function(token, tokenSecret, profile, done) {
             //console.log(profile);
@@ -104,7 +103,7 @@ module.exports = function(passport) {
     passport.use(new FacebookStrategy({
             clientID: "206249079912883",
             clientSecret: "2dc829085fe62300d0baaeeed8fccb21",
-            callbackURL: "http://localhost:3000/auth/facebook/callback"
+            callbackURL: "https://cocodinglive.herokuapp.com/auth/facebook/callback"
         },
         function(accessToken, refreshToken, profile, done) {
             //console.log(profile);
