@@ -10,10 +10,10 @@ module.exports = {
     'users_table': 'users',
     'rooms_table': 'rooms',
     
-    jawsdb: {
+    /*jawsdb: {
         Host: 'if0ck476y7axojpg.cbetxkdyhwsb.us-east-1.rds.amazonaws.com',
         Username: 'v80k4a7v9tvp0d36',
         Password: '	jzr1n0fro4svb6px',
         Port: 3306
-    }
+    }*/
 }
