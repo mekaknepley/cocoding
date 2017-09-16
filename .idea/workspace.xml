@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="dc34fec3-ee93-4d1d-aafa-2dd7766ccdc6" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/shelbystyle.css" afterPath="$PROJECT_DIR$/public/css/shelbystyle.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/landingpage.css" afterPath="$PROJECT_DIR$/public/css/landingpage.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/classrooms.handlebars" afterPath="$PROJECT_DIR$/views/classrooms.handlebars" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/terminal.handlebars" afterPath="$PROJECT_DIR$/views/terminal.handlebars" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,16 +28,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="passport.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/passport.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="40" column="68" lean-forward="false" selection-start-line="40" selection-start-column="68" selection-end-line="40" selection-end-column="68" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="roomlist.handlebars" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/roomlist.handlebars">
           <provider selected="true" editor-type-id="text-editor">
@@ -49,12 +38,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jaycen.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/js/jaycen.js">
+      <file leaf-file-name="landingpage.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/css/landingpage.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="300">
+              <caret line="147" column="8" lean-forward="true" selection-start-line="147" selection-start-column="8" selection-end-line="147" selection-end-column="8" />
+              <folding>
+                <element signature="e#1970#2198#2" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -69,11 +60,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="classrooms.handlebars" pinned="false" current-in-tab="true">
+      <file leaf-file-name="classrooms.handlebars" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/classrooms.handlebars">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+            <state relative-caret-position="390">
+              <caret line="102" column="136" lean-forward="true" selection-start-line="102" selection-start-column="136" selection-end-line="102" selection-end-column="136" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="496">
+              <caret line="43" column="20" lean-forward="true" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -82,7 +83,7 @@
       <file leaf-file-name="shelbystyle.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/css/shelbystyle.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
+            <state relative-caret-position="3">
               <caret line="61" column="12" lean-forward="true" selection-start-line="61" selection-start-column="12" selection-end-line="61" selection-end-column="12" />
               <folding />
             </state>
@@ -92,8 +93,8 @@
       <file leaf-file-name="terminal.handlebars" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/terminal.handlebars">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8371">
-              <caret line="23" column="39" lean-forward="true" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+            <state relative-caret-position="129">
+              <caret line="21" column="19" lean-forward="false" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -123,8 +124,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>sign-up-in</find>
-      <find>parallax</find>
       <find>index-</find>
       <find>background3</find>
       <find>style.css</find>
@@ -152,6 +151,8 @@
       <find>signup</find>
       <find>loginModal</find>
       <find>bla</find>
+      <find>blue</find>
+      <find>bg</find>
       <find>black</find>
     </findStrings>
   </component>
@@ -181,7 +182,6 @@
         <option value="$PROJECT_DIR$/views/opentok.handlebars" />
         <option value="$PROJECT_DIR$/config/database.js" />
         <option value="$PROJECT_DIR$/schema.sql" />
-        <option value="$PROJECT_DIR$/public/css/landingpage.css" />
         <option value="$PROJECT_DIR$/public/css/jaycen.css" />
         <option value="$PROJECT_DIR$/public/js/jaycen.js" />
         <option value="$PROJECT_DIR$/views/layouts/jaycen.handlebars" />
@@ -194,6 +194,7 @@
         <option value="$PROJECT_DIR$/views/terminal.handlebars" />
         <option value="$PROJECT_DIR$/public/css/shelbystyle.css" />
         <option value="$PROJECT_DIR$/views/classrooms.handlebars" />
+        <option value="$PROJECT_DIR$/public/css/landingpage.css" />
       </list>
     </option>
   </component>
@@ -276,35 +277,7 @@
             <path>
               <item name="cocoding" type="b2602c69:ProjectViewProjectNode" />
               <item name="cocoding" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cocoding" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cocoding" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cocoding" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cocoding" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cocoding" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cocoding" type="462c0819:PsiDirectoryNode" />
               <item name="routes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cocoding" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cocoding" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cocoding" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cocoding" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -353,12 +326,12 @@
       <workItem from="1504106274099" duration="70803000" />
       <workItem from="1504554233928" duration="1643000" />
       <workItem from="1504558632847" duration="147566000" />
-      <workItem from="1505324450614" duration="50033000" />
+      <workItem from="1505324450614" duration="53531000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="270045000" />
+    <option name="totallyTimeSpent" value="273543000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="13" y="52" width="1400" height="785" extended-state="0" />
@@ -509,16 +482,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/landingpage.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="66" column="0" lean-forward="true" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
-          <folding>
-            <element signature="e#1970#2198#2" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/css/signupbox.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2160">
@@ -631,14 +594,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="657">
-          <caret line="57" column="18" lean-forward="false" selection-start-line="57" selection-start-column="18" selection-end-line="57" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/database.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -705,7 +660,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/css/shelbystyle.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
+        <state relative-caret-position="3">
           <caret line="61" column="12" lean-forward="true" selection-start-line="61" selection-start-column="12" selection-end-line="61" selection-end-column="12" />
           <folding />
         </state>
@@ -713,17 +668,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/terminal.handlebars">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8371">
-          <caret line="23" column="39" lean-forward="true" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+        <state relative-caret-position="129">
+          <caret line="21" column="19" lean-forward="false" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/classrooms.handlebars">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+        <state relative-caret-position="390">
+          <caret line="102" column="136" lean-forward="true" selection-start-line="102" selection-start-column="136" selection-end-line="102" selection-end-column="136" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="43" column="20" lean-forward="true" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/landingpage.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="147" column="8" lean-forward="true" selection-start-line="147" selection-start-column="8" selection-end-line="147" selection-end-column="8" />
+          <folding>
+            <element signature="e#1970#2198#2" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
