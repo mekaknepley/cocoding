@@ -92,10 +92,10 @@
 	var data;
     editor.on('change', function(cm){
 		//sets the variable data to the what ever changes are made to the code editor
-       data = cm.getValue();
+       	data = cm.getValue();
 			//var data = editor.getValue();
 		console.log(cm.getValue());
-           /* write();*/
+            write();
     });
 
     /*$('#editor-value').keyup(function(){
