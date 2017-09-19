@@ -72,18 +72,26 @@
     content.on('value', function(snapshot){
        console.log(snapshot.val());
         var data = snapshot.val();
+		//gets the current line and ch of the cursor
 		var cursor = editor.getCursor();
+		//gets the current line of the cursor
 		var cursorLine = cursor.line;
+		//gets the current ch of the cursor
 		var cursorCh = cursor.ch;
+		//sets the value of the editor to the contents from the db
         editor.getDoc().setValue(data);
 		
 		console.log(" cl: " + cursorLine + " ch: " + cursorCh);
+		//sets the cursor to the line and cursor: Stops the editor from resetting the position of the cursor.
 		editor.setCursor({line: cursorLine, ch:cursorCh});
+		//focuses on the editor
 		editor.focus();
     });
     
+	
 	var data;
     editor.on('change', function(cm){
+		//sets the variable data to the what ever changes are made to the code editor
        data = cm.getValue();
 			//var data = editor.getValue();
             write();

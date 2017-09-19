@@ -75,7 +75,7 @@ module.exports = router;
         //res.render("terminal", { username: req.user.username });
         /********** FIREBASE *********/
         /*roomsdb.update({[room]:'<h1>Hello World!</h1>'});*/
-        var editor = document.getElementById('editor-value').val();
+        /*var editor = document.getElementById('editor-value').val();
          function write(){
             var data = editor;
             console.log(data);
@@ -90,7 +90,7 @@ module.exports = router;
         editor.on('change', function(changes){
            write(); 
             console.log(changes);
-        });
+        });*/
         /********** ******** *********/
     });
 
@@ -138,7 +138,7 @@ module.exports = router;
         });
         /********** FIREBASE *********/
         /*roomsdb.update({[room]:'<h1>Hello World!</h1>'});*/
-        var editor = $('#editor-value');
+        /*var editor = $('#editor-value');
         function write(){
             var data = editor.getValue();
             console.log(data);
@@ -154,7 +154,7 @@ module.exports = router;
            write(); 
             console.log(changes);
         });
-
+*/
         /********** ******** *********/
     });
 
