@@ -18,6 +18,27 @@ nav .brand-logo {
     width: 80px;
 }
 
+.sideNav  {
+    color: white;
+    width: 50px;
+    position: absolute;
+    top: 60px;
+    right: 0px;
+    bottom: 0;
+    height: 600px;
+
+}
+
+.side-nav {
+    color: white;
+    width: 50px;
+    position: absolute;
+    top: 60px;
+    right: 0px;
+    bottom: 0;
+    height: 600px;
+}
+
 #tagLine {
     font-size: 65px;
     line-height: 115%;
@@ -142,7 +163,8 @@ footer.page-footer {
 }
 
 #terminalBg {
-  background-color: #212122;
+  background-color: lightgrey;
+    height: 500px;
 }
 
 .modal {

@@ -1,0 +1,716 @@
+
+
+<!--<form class="logoutForm" action="/logout" method="GET">-->
+    <!--<button type="submit">LOG OUT</button>-->
+<!--</form>-->
+
+<!-- Navbar Start -->
+<nav class="blue-grey darken-4">
+    <div class="nav-wrapper">
+        <div id="navPosition">
+            <img id="robotsSize"src="/img/logorobot.png" alt="robotlogo">
+            <a id="logo-container " href="#" class="brand-logo">coCodingLive</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <!--<li><a href="#">Companies</a></li>-->
+                <li><a class="btn" href="/logout">Sign Out</a></li>
+                <li><a href="#" id="isSignDiv">{{username}} is signed In</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div id="terminalBg">
+<nav class="blue-grey darken-3 z-depth-5" role="navigation">
+    <div class="nav-wrapper container">
+        <ul cl  ass="right hide-on-med-and-down">
+            <li><a href="sass.html"><i class="material-icons left"></i></a></li>
+            <li><a class="waves-effect waves-light btn-tiny"><i class="material-icons left"></i></a></li>
+        </ul>
+        <ul id="nav-mobile" class="side-nav">
+            <li><a href="sass.html"><i class="material-icons left">person</i>Username</a></li>
+            <li><a class="waves-effect waves-light btn-tiny"><i class="material-icons left">lock</i>Sign Out</a></li>
+        </ul>
+        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+</nav>
+<div class="container">
+    <ul id="slide-out" class="side-nav">
+        <h4>Languages</h4>
+        <ul class="collapsible" data-collapsible="accordion">
+            <li>
+                <div class="collapsible-header">
+                    <i class="material-icons">list</i>Open
+                </div>
+                <div class="collapsible-body">
+                    <ul>
+                        <li>From my files</li>
+                        <li>From Classroom</li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <div class="collapsible-header">
+                    <i class="material-icons">list</i>Save
+                </div>
+                <div class="collapsible-body">
+                    <ul>
+                        <li>Save as...</li>
+                        <li>Save</li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <div class="collapsible-header">
+                    <i class="material-icons">list</i>Share
+                </div>
+                <div class="collapsible-body">
+                    <ul>
+                        <li>With Everyone</li>
+                        <li>Email</li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <div class="collapsible-header">
+                    <i class="material-icons">list</i>A-C
+                </div>
+                <div class="collapsible-body">
+                    <ul class="languages">
+                        <li><a href="#APL">APL</a></li>
+                        <li><a href="#ASN-1">ASN.1</a></li>
+                        <li><a href="#Asterisk">Asterisk dialplan</a></li>
+                        <li><a href="#Brainfuck">Brainfuck</a></li>
+                        <li><a href="#C">C</a></li>
+                        <li><a href="#C++">cPlusPlus</a></li>
+                        <li><a href="#C#">cSharp</a></li>
+                        <li><a href="#Ceylon">Ceylon</a></li>
+                        <li><a href="#Clojure">Clojure</a></li>
+                        <li><a href="#Closure-Stylesheet">Closure Stylesheets</a></li>
+                        <li><a href="#CMake">CMake</a></li>
+                        <li><a href="#COBOL">COBOL</a></li>
+                        <li><a href="#CoffeeScript">CoffeeScript</a></li>
+                        <li><a href="#Common Lisp">Common Lisp</a></li>
+                        <li><a href="#Crystal">Crystal</a></li>
+                        <li><a href="#CSS">CSS</a></li>
+                        <li><a href="#Cypher">Cypher</a></li>
+                        <li><a href="#Cython">Cython</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <div class="collapsible-header">
+                    <i class="material-icons">list</i>D-F
+                </div>
+                <div class="collapsible-body">
+                    <ul class="languages">
+                        <li><a href="#D">D</a></li>
+                        <li><a href="#Dart">Dart</a></li>
+                        <li><a href="#Django">Django</a></li>
+                        <li><a href="#Dockerfile">Dockerfile</a></li>
+                        <li><a href="#diff">diff</a></li>
+                        <li><a href="#DTD">DTD</a></li>
+                        <li><a href="#Dylan">Dylan</a></li>
+                        <li><a href="#EBNF">EBNF</a></li>
+                        <li><a href="#ECL">ECL</a></li>
+                        <li><a href="#Eiffel">Eiffel</a></li>
+                        <li><a href="#Elixir">Elixir</a></li>
+                        <li><a href="#Elm">Elm</a></li>
+                        <li><a href="#Erlang">Erlang</a></li>
+                        <li><a href="#Factor">Factor</a></li>
+                        <li><a href="#FCL">FCL</a></li>
+                        <li><a href="#Fourth">Forth</a></li>
+                        <li><a href="#Fortran">Fortran</a></li>
+                        <li><a href="#F#">F#</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <div class="collapsible-header">
+                    <i class="material-icons">list</i>G-J
+                </div>
+                <div class="collapsible-body">
+                    <ul class="languages">
+                        <li><a href="#Gas">Gas</a></li>
+                        <li><a href="#Gherkin">Gherkin</a></li>
+                        <li><a href="#Go">Go</a></li>
+                        <li><a href="#Groovy">Groovy</a></li>
+                        <li><a href="#HAML">HAML</a></li>
+                        <li><a href="#Handlebars">Handlebars</a></li>
+                        <li><a href="#Haskell">Haskell</a></li>
+                        <li><a href="#Haxe">Haxe</a></li>
+                        <li><a href="#HTML-embedded">HTML (JSP,ASP.net)</a></li>
+                        <li><a href="#HTML-mix-mode">HTML mix-mode</a></li>
+                        <li><a href="#HTTP">HTTP</a></li>
+                        <li><a href="#IDL">IDL</a></li>
+                        <li><a href="#Java">Java</a></li>
+                        <li><a href="#js">JavaScript</a></li>
+                        <li><a href="#Jinja2">Jinja2</a></li>
+                        <li><a href="#Julia">Julia</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <div class="collapsible-header">
+                    <i class="material-icons">list</i>K-O
+                </div>
+                <div class="collapsible-body">
+                    <ul class="languages">
+                        <li><a href="#Kotlin">Kotlin</a></li>
+                        <li><a href="#LESS">LESS</a></li>
+                        <li><a href="#LiveScript">LiveScript</a></li>
+                        <li><a href="#Lua">Lua</a></li>
+                        <li><a href="#Markdown">Markdown</a></li>
+                        <li><a href="#Mathematica">Mathematica</a></li>
+                        <li><a href="#mbox">mbox</a></li>
+                        <li><a href="#mIRC">mIRC</a></li>
+                        <li><a href="#Modelica">Modelica</a></li>
+                        <li><a href="#MSCGen">MscGen</a></li>
+                        <li><a href="#MUMPS">MUMPS</a></li>
+                        <li><a href="#Nginx">Nginx</a></li>
+                        <li><a href="#NSIS">NSIS</a></li>
+                        <li><a href="#N-Trip-N-Quad">N-Triples/N-Quads</a></li>
+                        <li><a href="#Objective-C">Objective C</a></li>
+                        <li><a href="#OCaml">OCaml</a></li>
+                        <li><a href="#Octave">Octave</a></li>
+                        <li><a href="#Oz">Oz</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <div class="collapsible-header">
+                    <i class="material-icons">list</i>P-R
+                </div>
+                <div class="collapsible-body">
+                    <ul class="languages">
+                        <li><a href="#Pascal">Pascal</a></li>
+                        <li><a href="#PEG">PEG.js</a></li>
+                        <li><a href="#Perl">Perl</a></li>
+                        <li><a href="#PGP">PGP</a></li>
+                        <li><a href="#PHP">PHP</a></li>
+                        <li><a href="#Pig Latin">Pig Latin</a></li>
+                        <li><a href="#powershell">PowerShell</a></li>
+                        <li><a href="#prop-files">Properties files</a></li>
+                        <li><a href="#protoBuf">ProtoBuf</a></li>
+                        <li><a href="#pug">Pug</a></li>
+                        <li><a href="#puppet">Puppet</a></li>
+                        <li><a href="#python">Python</a></li>
+                        <li><a href="#Q">Q</a></li>
+                        <li><a href="#R">R</a></li>
+                        <li><a href="#RPM">RPM</a></li>
+                        <li><a href="#reStructuredText">reStructuredText</a></li>
+                        <li><a href="#Ruby">Ruby</a></li>
+                        <li><a href="#Rust">Rust</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <div class="collapsible-header">
+                    <i class="material-icons">list</i>S
+                </div>
+                <div class="collapsible-body">
+                    <ul class="languages">
+                        <li><a href="#SAS">SAS</a></li>
+                        <li><a href="#Sass">Sass</a></li>
+                        <li><a href="#Spreadsheet">Spreadsheet</a></li>
+                        <li><a href="#Scala">Scala</a></li>
+                        <li><a href="#Scheme">Scheme</a></li>
+                        <li><a href="#SCSS">SCSS</a></li>
+                        <li><a href="#shell">Shell</a></li>
+                        <li><a href="#sieve">Sieve</a></li>
+                        <li><a href="#slim">Slim</a></li>
+                        <li><a href="#smalltalk">Smalltalk</a></li>
+                        <li><a href="#smarty">Smarty</a></li>
+                        <li><a href="#soir">Soir</a></li>
+                        <li><a href="#soy">Soy</a></li>
+                        <li><a href="#stylus">Stylus</a></li>
+                        <li><a href="#sql">SQL</a></li>
+                        <li><a href="#sparql">SPARQL</a></li>
+                        <li><a href="#squirrel">Squirrel</a></li>
+                        <li><a href="#swift">Swift</a></li>
+                        <li><a href="#sTex-Latex">sTex LaTeX</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <div class="collapsible-header">
+                    <i class="material-icons">list</i>T-Z
+                </div>
+                <div class="collapsible-body">
+                    <ul class="languages">
+                        <li><a href="#TCL">Tcl</a></li>
+                        <li><a href="#textile">Textile</a></li>
+                        <li><a href="#tiddlywiki">Tiddlywiki</a></li>
+                        <li><a href="#tikiwiki">Tiki wiki</a></li>
+                        <li><a href="#toml">TOML</a></li>
+                        <li><a href="#tornado">Tornado</a></li>
+                        <li><a href="#troff">troff</a></li>
+                        <li><a href="#ttcn">TTCN</a></li>
+                        <li><a href="#ttcn-config">TTCN Configuration</a></li>
+                        <li><a href="#turtle">Turtle</a></li>
+                        <li><a href="#twig">Twig</a></li>
+                        <li><a href="#vb.net">VB.NET</a></li>
+                        <li><a href="#vbScript">VBScript</a></li>
+                        <li><a href="#velocity">Velocity</a></li>
+                        <li><a href="#verilog">Verilog</a></li>
+                        <li><a href="#vhdl">VHDL</a></li>
+                        <li><a href="#vue">Vue.js app</a></li>
+                        <li><a href="#web-idl">Web IDL</a></li>
+                        <li><a href="#html">XML/HTML</a></li>
+                        <li><a href="#xquery">XQuery</a></li>
+                        <li><a href="#yacas">Yacas</a></li>
+                        <li><a href="#yaml">YAML</a></li>
+                        <li><a href="#yaml-front">YAML frontmatter</a></li>
+                        <li><a href="#z80">Z80</a></li>
+                        <li><a href="#zenburn">zenburn.css</a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </ul>
+    <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+
+    <div class="row center">
+
+        <!-- Terminal Start -->
+        <div id="codeEditor" class="header col s8 light z-depth-3 terminal">
+
+            <div id="navi">
+                <!-- File Dropdown Structure -->
+                <ul id="file" class="dropdown-content">
+                    <li><a href="#new" class="modal-trigger">New</a></li>
+                    <li><a href="#open" class="modal-trigger">Open</a></li>
+                    <li><a href="#save" class="modal-trigger">Save</a></li>
+                    <li><a href="#saveas" class="modal-trigger">Save As...</a></li>
+                    <li><a href="#collab" class="modal-trigger">Collaborate</a></li>
+                    <li class="divider"></li>
+                    <div id="recent">
+                        <h6>Recent Files</h6>
+                        <ul>
+                            <li><a href="#">Test.js</a></li>
+                        </ul>
+                    </div>
+                </ul> <!-- END FILE DROPDOWN STRUCTURE-->
+
+
+                <!-- LANGUAGE DROPDOWN STRUCTURE-->
+                <ul id="language" class="dropdown-content">
+                    <li><a id="cPlusPlus">C++</a></li>
+                    <li><a id="cSharp">C#</a></li>
+                    <li><a id="handlebars">Handlebars</a></li>
+                    <li><a id="html">HTML</a></li>
+                    <li><a id="javascript">JavaScript</a></li>
+                    <li><a id="json">JSON</a></li>
+                    <li><a id="php">PHP</a></li>
+                    <li><a id="txt">TXT</a></li>
+                </ul> <!-- END LANGUAGE DROPDOWN STRUCTURE-->
+                <nav id="toolbar">
+                    <div class="nav-wrapper">
+                        <ul class="left">
+                            <!-- Dropdown Trigger -->
+                            <li><a class="dropdown" href="#!" data-activates="file">File</a></li>
+                            <li><a class="dropdown" href="#!" data-activates="language">Language</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div> <!-- END NAV -->
+
+            <form id="preview-form">
+                <textarea class="codemirror-textarea" name="editor-value" id="editor-value" rows="4" cols="10" onkeyup="write()"></textarea>
+                <br>
+                <input type="submit" name="submit" id="submit" value="submit">
+            </form>
+
+            <!-- MODALS -->
+            <!----------------------------------------------------------------------------------------------->
+
+            <div id="saveas" class="modal">
+                <div class="modal-content">
+                    <h4>Save As...</h4>
+                    <!-- drop down for file location, buttons for go up a level and create new folder -->
+                    <div class="row">
+                        <div class="input-field col s6 offset-s1">
+                            <select id="file-directory">
+                                <option value="" disabled selected>Save in</option>
+                            </select>
+                        </div>
+                        <div class="col s1 offset-s1"><i class="small material-icons" title="Up One Level">arrow_drop_up</i></div>
+                        <div class="col s1"><i class="small material-icons" title="Create New Folder">add</i></div>
+                    </div>
+                    <!-- window that lists files within that file location currently selected -->
+                    <div class="row">
+                        <div class="col s10 offset-s1" id="file-location">
+                            <ul>
+                                <li>Test.js</li>
+                                <li>Test.css</li>
+                                <li>Test.html</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- text box for file name -->
+                    <div class="row">
+                        <div class="input-field col s6 offset-s1">
+                            <input placeholder="File Name" id="file-name" type="text">
+                        </div>
+                        <div class="col s2 offset-s1">
+                            <a class="modal-action waves-effect waves-light btn">Save</a>
+                        </div>
+                    </div>
+                    <!-- drop down for save as type with a list of file types -->
+                    <div class="row">
+                        <div class="input-field col s6 offset-s1">
+                            <select id="file-type">
+                                <option value="" disabled selected>Save as type</option>
+                                <option value="handlebars"> Handlebars File (*.handlebars) </option>
+                                <option value="html"> Hypertext Markup Language File (*.html) </option>
+                                <option value="js"> JavaScript File (*.js) </option>
+                                <option value="json"> JavaScript Object Notation File (*.json) </option>
+                                <option value="php"> PHP - Hypertext Preprocessor File (*.php) </option>
+                                <option value="html"> TXT - Normal Text File (*.txt) </option>
+                            </select>
+                        </div>
+                        <div class="col s2 offset-s1">
+                            <a href="#!" class="modal-action modal-close waves-effect waves-light btn">Cancel</a>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- END SAVEAS MODAL-->
+
+            <!----------------------------------------------------------------------------------------------->
+
+            <div id="save" class="modal">
+                <div class="modal-content">
+                    <h4>Save</h4>
+                    <!-- drop down for file location, buttons for go up a level and create new folder -->
+                    <div class="row">
+                        <div class="input-field col s6 offset-s1">
+                            <select id="file-directory">
+                                <option value="" disabled selected>Save in</option>
+                            </select>
+                        </div>
+                        <div class="col s1 offset-s1"><i class="small material-icons" title="Up One Level">arrow_drop_up</i></div>
+                        <div class="col s1"><i class="small material-icons" title="Create New Folder">add</i></div>
+                    </div>
+                    <!-- window that lists files within that file location currently selected -->
+                    <div class="row">
+                        <div class="col s10 offset-s1" id="file-location">
+                            <ul>
+                                <li>Test.js</li>
+                                <li>Test.css</li>
+                                <li>Test.html</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- text box for file name -->
+                    <div class="row">
+                        <div class="input-field col s6 offset-s1">
+                            <input placeholder="File Name" id="file-name" type="text">
+                        </div>
+                        <div class="col s2 offset-s1">
+                            <a class="modal-action waves-effect waves-light btn">Save</a>
+                        </div>
+                    </div>
+                    <!-- drop down for save as type with a list of file types -->
+                    <div class="row">
+                        <div class="input-field col s6 offset-s1">
+                            <select id="file-type">
+                                <option value="" disabled selected>Save as type</option>
+                                <option value="handlebars"> Handlebars File (*.handlebars) </option>
+                                <option value="html"> Hypertext Markup Language File (*.html) </option>
+                                <option value="js"> JavaScript File (*.js) </option>
+                                <option value="json"> JavaScript Object Notation File (*.json) </option>
+                                <option value="php"> PHP - Hypertext Preprocessor File (*.php) </option>
+                                <option value="html"> TXT - Normal Text File (*.txt) </option>
+                            </select>
+                        </div>
+                        <div class="col s2 offset-s1">
+                            <a href="#!" class="modal-action modal-close waves-effect waves-light btn">Cancel</a>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- END SAVE MODAL-->
+
+            <!----------------------------------------------------------------------------------------------->
+
+            <div id="open" class="modal">
+                <div class="modal-content">
+                    <h4>Open File</h4>
+                    <!-- drop down for file location, buttons for go up a level and create new folder -->
+                    <div class="row">
+                        <div class="input-field col s6 offset-s1">
+                            <select id="file-directory">
+                                <option value="" disabled selected>Select Folder</option>
+                            </select>
+                        </div>
+                        <div class="col s1 offset-s1"><i class="small material-icons" title="Up One Level">arrow_drop_up</i></div>
+                        <div class="col s1"><i class="small material-icons" title="Create New Folder">add</i></div>
+                    </div>
+                    <!-- window that lists files within that file location currently selected -->
+                    <div class="row">
+                        <div class="col s10 offset-s1" id="file-location">
+                            <ul>
+                                <li>Test.js</li>
+                                <li>Test.css</li>
+                                <li>Test.html</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- text box for file name -->
+                    <div class="row">
+                        <div class="input-field col s6 offset-s1">
+                            <input placeholder="File Name" id="file-name" type="text">
+                        </div>
+
+                    </div>
+                    <!-- drop down for save as type with a list of file types -->
+                    <div class="row">
+                        <div class="col s2 offset-s1">
+                            <a class="modal-action waves-effect waves-light btn">Open</a>
+                        </div>
+                        <div class="col s2 offset-s1">
+                            <a href="#" class="modal-action modal-close waves-effect waves-light btn">Cancel</a>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- END OPEN MODAL-->
+
+            <!----------------------------------------------------------------------------------------------->
+
+            <div id="new" class="modal">
+                <div class="modal-content">
+                    <h4>New File</h4>
+                    <!-- drop down for file location, buttons for go up a level and create new folder -->
+                    <div class="row">
+                        <div class="input-field col s6 offset-s1">
+                            <select id="file-directory">
+                                <option value="" disabled selected>Select Folder</option>
+                            </select>
+                        </div>
+                        <div class="col s1 offset-s1"><i class="small material-icons" title="Up One Level">arrow_drop_up</i></div>
+                        <div class="col s1"><i class="small material-icons" title="Create New Folder">add</i></div>
+                    </div>
+                    <!-- window that lists files within that file location currently selected -->
+                    <div class="row">
+                        <div class="col s10 offset-s1" id="file-location">
+                            <ul>
+                                <li>Test.js</li>
+                                <li>Test.css</li>
+                                <li>Test.html</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- text box for file name -->
+                    <div class="row">
+                        <div class="input-field col s6 offset-s1">
+                            <input placeholder="File Name" id="file-name" type="text">
+                        </div>
+                        <div class="col s2 offset-s1">
+                            <a class="modal-action waves-effect waves-light btn">Save</a>
+                        </div>
+                    </div>
+                    <!-- drop down for save as type with a list of file types -->
+                    <div class="row">
+                        <div class="input-field col s6 offset-s1">
+                            <select id="file-type">
+                                <option value="" disabled selected>Save as type</option>
+                                <option value="handlebars"> Handlebars File (*.handlebars) </option>
+                                <option value="html"> Hypertext Markup Language File (*.html) </option>
+                                <option value="js"> JavaScript File (*.js) </option>
+                                <option value="json"> JavaScript Object Notation File (*.json) </option>
+                                <option value="php"> PHP - Hypertext Preprocessor File (*.php) </option>
+                                <option value="html"> TXT - Normal Text File (*.txt) </option>
+                            </select>
+                        </div>
+                        <div class="col s2 offset-s1">
+                            <a href="#!" class="modal-action modal-close waves-effect waves-light btn">Cancel</a>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- END NEW MODAL-->
+
+            <!----------------------------------------------------------------------------------------------->
+
+            <div id="collab" class="modal">
+                <div class="modal-content">
+                    <h4>Collaborate</h4>
+                    <!-- drop down for file location, buttons for go up a level and create new folder -->
+                    <div class="row">
+
+                        <div class="col s2 offset-s1">
+                            <a href="/room=1&user=user1" class="modal-action waves-effect waves-light btn">Collaborate</a>
+                        </div>
+                        <div class="col s2 offset-s1">
+                            <a href="#!" class="modal-action modal-close waves-effect waves-light btn">Cancel</a>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- END NEW MODAL-->
+        </div>
+        <!-- Chat Start -->
+        <div class="header col s3 offset-s1 light z-depth-3 chat">
+            <ul id="messages">Chat</ul>
+            <form id="chatForm" action="">
+            <input id="m" autocomplete="off" /><button>Send</button>
+            </form>
+        </div>
+        <!-- Chat End -->
+    </div>
+    <div class="row center">
+
+        <!-- Live Terminal Start -->
+        <div id="preview" class="header col s8 light z-depth-3 liveTerminal">
+
+        </div>
+        <!-- Live Terminal End -->
+        <!-- Video Start -->
+        <div class="header col s3 offset-s1 light z-depth-3 video">
+            <div id="publisher"></div>
+            <div id="subscribers"></div>
+        </div>
+        <!-- Video End -->
+    </div>
+    <!--Modal 1 Start for Careers -->
+    <div id="careers" class="modal">
+        <div class="modal-content">
+            <h4>Careers</h4>
+            <div class="row">
+                <form class="col s12">
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <i class="material-icons prefix">account_circle</i>
+                            <input id="icon_prefix" type="text" class="validate">
+                            <label for="icon_prefix">First Name</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <i class="material-icons prefix">phone</i>
+                            <input id="icon_telephone" type="tel" class="validate">
+                            <label for="icon_telephone">Telephone</label>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+    <!-- Footer Start -->
+    <footer class="page-footer blue-grey darken-3">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">coCoding Live</h5>
+                    <p class="grey-text text-lighten-4">Code with peers from the cloud. Anywhere. Anytime. All tools included.</p>
+                </div>
+                <div class="col l3 s12">
+                    <h5 class="white-text">About</h5>
+                    <ul>
+                        <li><a class="white-text" href="https://github.com/mekaknepley">Meka</a></li>
+                        <li><a class="white-text" href="https://github.com/jaycen9887">Jacyen</a></li>
+                        <li><a class="white-text" href="https://github.com/shelbina">Shelby</a></li>
+                    </ul>
+                </div>
+                <div class="col l3 s12">
+                    <h5 class="white-text">Connect</h5>
+                    <ul>
+                        <li><a class="white-text" href="https://facebook.com">Facebook</a></li>
+                        <li><a class="white-text" href="https://twitter.com">Twitter</a></li>
+                        <li><a class="white-text modal-trigger" href="#careers"><i class="tiny material-icons left">work</i>Careers</a></li>
+                        <li><a class="white-text modal-trigger" href="https://paypal.com"><i class="tiny material-icons left">monetization_on</i>Donate</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2017 coCodingLive
+            </div>
+        </div>
+    </footer>
+    <!-- Footer End -->
+    <!--Modal 1 End for Careers -->
+    <!----------------------------------------------------------------------------------------------->
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<!-- Materialize JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+<script>
+    var socket = io();
+    $(function () {
+        var socket = io();
+        $('#chatForm').submit(function(){
+            socket.emit('chat message', "{{username}}: " + $('#m').val());
+            $('#m').val('');
+            return false;
+        });
+    });
+    socket.on('chat message', function(msg){
+        $('#messages').append($('<li>').text(msg));
+    });
+
+//    shelby script
+    // Initialize collapse button
+    $(".button-collapse").sideNav({
+        menuWidth: 200,
+        edge: 'left',
+        closeOnClick: true,
+        draggable: true,
+        onOpen: function(el) {  },
+        onClose: function(el) {  },
+    });
+    //initialize popout
+    $(document).ready(function(){
+        $('.collapsible').collapsible();
+    });
+
+    //modals
+    $(document).ready(function(){
+        // the "href" attribute of the modal trigger must specify the modal ID that wants to be triggered
+        $('.modal').modal();
+    });
+</script>
+
+<script src="https://static.opentok.com/v2/js/opentok.min.js"></script>
+<script type="text/javascript">
+    var apiKey = '{{apiKey}}';
+    var sessionId = '{{sessionId}}';
+    var token = '{{token}}';
+
+    // Initialize an OpenTok Session object
+    var session = OT.initSession(apiKey, sessionId);
+
+    // Initialize a Publisher, and place it into the element with id="publisher"
+    var publisher = OT.initPublisher('publisher');
+
+    // Attach event handlers
+    session.on({
+
+        // This function runs when session.connect() asynchronously completes
+        sessionConnected: function(event) {
+            // Publish the publisher we initialzed earlier (this will trigger 'streamCreated' on other
+            // clients)
+            session.publish(publisher);
+        },
+
+        // This function runs when another client publishes a stream (eg. session.publish())
+        streamCreated: function(event) {
+            // Create a container for a new Subscriber, assign it an id using the streamId, put it inside
+            // the element with id="subscribers"
+            var subContainer = document.createElement('div');
+            subContainer.id = 'stream-' + event.stream.streamId;
+            document.getElementById('subscribers').appendChild(subContainer);
+
+            // Subscribe to the stream that caused this event, put it inside the container we just made
+            session.subscribe(event.stream, subContainer);
+        }
+
+    });
+
+    // Connect to the Session using the 'apiKey' of the application and a 'token' for permission
+    session.connect(token);
+
+</script>
+    
+<!-- FIREBASE -->  
+<script>
+    
+</script>

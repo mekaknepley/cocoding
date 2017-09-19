@@ -45,7 +45,7 @@ module.exports = router;
     router.get("/", function (req, res) {
         if (req.isAuthenticated())
         {
-            res.redirect("/room");7
+            res.redirect("/room");
         } else {
             res.render("landingpage");
         }
@@ -75,6 +75,7 @@ module.exports = router;
         //res.render("terminal", { username: req.user.username });
         /********** FIREBASE *********/
         /*roomsdb.update({[room]:'<h1>Hello World!</h1>'});*/
+        /*
         var editor = document.getElementById('editor-value').val();
          function write(){
             var data = editor;
@@ -91,6 +92,7 @@ module.exports = router;
            write(); 
             console.log(changes);
         });
+        */
         /********** ******** *********/
     });
 
