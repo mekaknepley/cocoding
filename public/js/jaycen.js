@@ -54,8 +54,8 @@
     firebase.initializeApp(config);
 
     var database = firebase.database();
-    var rooms = database.ref().child('rooms');
-    var content = rooms.child('content');
+    var roomsdb = database.ref().child('rooms');
+    var content = roomsdb.child('content');
 	
     /*var url = window.location.href; 
     var url = url.split('/');
@@ -94,7 +94,8 @@
 		//sets the variable data to the what ever changes are made to the code editor
        data = cm.getValue();
 			//var data = editor.getValue();
-            write();
+		console.log(cm.getValue());
+           /* write();*/
     });
 
     /*$('#editor-value').keyup(function(){
@@ -102,4 +103,4 @@
         $('#editor-value').focus();
     });*/
 
-})();
+});
