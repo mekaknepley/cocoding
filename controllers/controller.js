@@ -7,7 +7,7 @@ module.exports = function(app, passport, opentok) {
     var dbconfig = require('../config/database');
     var connection;
     var firebase = require('firebase');
-    
+
     /******************* FIREBASE *******************/
     var config = {
         apiKey: "AIzaSyClQP9Fg9deVgrwupRCCxbcClvLFMR0AnQ",
@@ -17,10 +17,10 @@ module.exports = function(app, passport, opentok) {
         storageBucket: "realtime-e3651.appspot.com",
         messagingSenderId: "67777252179"
     };
-        firebase.initializeApp(config);
+    firebase.initializeApp(config);
 
-        var db = firebase.database();
-        var roomsdb = db.ref().child('rooms');
+    var db = firebase.database();
+    var roomsdb = db.ref().child('rooms');
     /******************* ******** *******************/
 
     if (process.env.JAWSDB_MARIA_URL) {
@@ -39,13 +39,13 @@ module.exports = function(app, passport, opentok) {
     });
 
 // Export routes for server.js to use.
-module.exports = router;
+    module.exports = router;
 
 // Create all our routes and set up logic within those routes where required.
     router.get("/", function (req, res) {
         if (req.isAuthenticated())
         {
-            res.redirect("/room");
+            res.redirect("/room");7
         } else {
             res.render("landingpage");
         }
@@ -75,8 +75,7 @@ module.exports = router;
         //res.render("terminal", { username: req.user.username });
         /********** FIREBASE *********/
         /*roomsdb.update({[room]:'<h1>Hello World!</h1>'});*/
-        /*
-        var editor = document.getElementById('editor-value').val();
+        /*var editor = document.getElementById('editor-value').val();
          function write(){
             var data = editor;
             console.log(data);
@@ -89,10 +88,9 @@ module.exports = router;
         });
 
         editor.on('change', function(changes){
-           write(); 
+           write();
             console.log(changes);
-        });
-        */
+        });*/
         /********** ******** *********/
     });
 
@@ -114,14 +112,14 @@ module.exports = router;
     });
 
     router.get("/room", isLoggedIn, function(req,res){
-            // No room specified, list all rooms
+        // No room specified, list all rooms
 
-            var roomQuery = "SELECT * FROM " + dbconfig.rooms_table;
-            connection.query(roomQuery,  function(err, rows) {
-                res.render("roomlist", {
-                    username: req.user.username,
-                    rooms: rows})
-            });
+        var roomQuery = "SELECT * FROM " + dbconfig.rooms_table;
+        connection.query(roomQuery,  function(err, rows) {
+            res.render("roomlist", {
+                username: req.user.username,
+                rooms: rows})
+        });
     });
 
     router.get("/room/:roomId", function(req,res){
@@ -140,7 +138,7 @@ module.exports = router;
         });
         /********** FIREBASE *********/
         /*roomsdb.update({[room]:'<h1>Hello World!</h1>'});*/
-        var editor = $('#editor-value');
+        /*var editor = $('#editor-value');
         function write(){
             var data = editor.getValue();
             console.log(data);
@@ -153,15 +151,15 @@ module.exports = router;
         });
 
         editor.on('change', function(changes){
-           write(); 
+           write();
             console.log(changes);
         });
-
+*/
         /********** ******** *********/
     });
 
     router.get("/createroom", function(req,res){
-          
+
         var room;
         opentok.createSession(function(err, session) {
             if (err) throw err;
@@ -175,7 +173,7 @@ module.exports = router;
             });
         });
         /********** FIREBASE *********/
-        roomsdb.update({[room]:'<h1>Hello World!</h1>'});
+        /*roomsdb.update({[room]:'<h1>Hello World!</h1>'});*/
         /********** ******** *********/
     });
 
@@ -194,7 +192,7 @@ module.exports = router;
             });
         });
         /********** FIREBASE *********/
-        roomsdb.update({[room]:'<h1>Hello World!</h1>'});
+        /*roomsdb.update({[room]:'<h1>Hello World!</h1>'});*/
         /********** ******** *********/
     });
 
@@ -219,10 +217,10 @@ module.exports = router;
         // generate a fresh token for this client
         var token = opentok.generateToken(sessionId);
         res.render("opentok", {
-                                id: "0",
-                                apiKey: "45957952",
-                                sessionId: sessionId,
-                                token: token});
+            id: "0",
+            apiKey: "45957952",
+            sessionId: sessionId,
+            token: token});
     });
 
     router.post("/login", passport.authenticate('local-login', {
@@ -286,3 +284,7 @@ function isLoggedIn(req, res, next) {
     // if they aren't redirect them to the home page
     res.redirect('/');
 }
+
+
+
+

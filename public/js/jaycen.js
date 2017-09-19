@@ -1,4 +1,4 @@
-$(document).ready(function(){
+
     var code = $("#editor-value")[0];
     var editor = CodeMirror.fromTextArea(code, {
         lineNumbers: true,
@@ -54,8 +54,8 @@ $(document).ready(function(){
     firebase.initializeApp(config);
 
     var database = firebase.database();
-    var rooms = database.ref().child('rooms');
-    var content = rooms.child('content');
+    var roomsdb = database.ref().child('rooms');
+    var content = roomsdb.child('content');
 	
     /*var url = window.location.href; 
     var url = url.split('/');
@@ -72,20 +72,29 @@ $(document).ready(function(){
     content.on('value', function(snapshot){
        console.log(snapshot.val());
         var data = snapshot.val();
+		//gets the current line and ch of the cursor
 		var cursor = editor.getCursor();
+		//gets the current line of the cursor
 		var cursorLine = cursor.line;
+		//gets the current ch of the cursor
 		var cursorCh = cursor.ch;
+		//sets the value of the editor to the contents from the db
         editor.getDoc().setValue(data);
 		
 		console.log(" cl: " + cursorLine + " ch: " + cursorCh);
+		//sets the cursor to the line and cursor: Stops the editor from resetting the position of the cursor.
 		editor.setCursor({line: cursorLine, ch:cursorCh});
+		//focuses on the editor
 		editor.focus();
     });
     
+	
 	var data;
     editor.on('change', function(cm){
-       data = cm.getValue();
+		//sets the variable data to the what ever changes are made to the code editor
+       	data = cm.getValue();
 			//var data = editor.getValue();
+		console.log(cm.getValue());
             write();
     });
 
@@ -93,5 +102,3 @@ $(document).ready(function(){
        write();
         $('#editor-value').focus();
     });*/
-
-});
