@@ -2,267 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc34fec3-ee93-4d1d-aafa-2dd7766ccdc6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/AUTHORS" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/CHANGELOG.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/addon/comment/comment.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/addon/comment/continuecomment.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/addon/dialog/dialog.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/addon/dialog/dialog.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/addon/display/autorefresh.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/addon/display/fullscreen.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/addon/display/fullscreen.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/addon/display/panel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/addon/display/placeholder.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/addon/display/rulers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/addon/edit/closebrackets.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/addon/edit/closetag.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/addon/edit/continuelist.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/addon/edit/matchbrackets.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/addon/edit/matchtags.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/addon/edit/trailingspace.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/addon/fold/brace-fold.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/addon/fold/comment-fold.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/addon/fold/foldcode.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/addon/fold/foldgutter.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/addon/fold/foldgutter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/addon/fold/indent-fold.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/addon/fold/markdown-fold.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/addon/fold/xml-fold.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/addon/hint/anyword-hint.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/addon/hint/css-hint.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/addon/hint/html-hint.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/addon/hint/javascript-hint.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/addon/hint/show-hint.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/addon/hint/show-hint.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/addon/hint/sql-hint.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/addon/hint/xml-hint.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/addon/lint/coffeescript-lint.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/addon/lint/css-lint.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/addon/lint/html-lint.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/addon/lint/javascript-lint.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/addon/lint/json-lint.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/addon/lint/lint.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/addon/lint/lint.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/addon/lint/yaml-lint.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/addon/merge/merge.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/addon/merge/merge.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/addon/mode/loadmode.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/addon/mode/multiplex.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/addon/mode/multiplex_test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/addon/mode/overlay.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/addon/mode/simple.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/addon/runmode/colorize.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/addon/runmode/runmode-standalone.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/addon/runmode/runmode.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/addon/runmode/runmode.node.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/addon/scroll/annotatescrollbar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/addon/scroll/scrollpastend.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/addon/scroll/simplescrollbars.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/addon/scroll/simplescrollbars.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/addon/search/jump-to-line.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/addon/search/match-highlighter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/addon/search/matchesonscrollbar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/addon/search/matchesonscrollbar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/addon/search/search.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/addon/search/searchcursor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/addon/selection/active-line.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/addon/selection/mark-selection.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/addon/selection/selection-pointer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/addon/tern/tern.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/addon/tern/tern.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/addon/tern/worker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/addon/wrap/hardwrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/keymap/emacs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/keymap/sublime.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/keymap/vim.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/lib/codemirror.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/lib/codemirror.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/apl/apl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/asciiarmor/asciiarmor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/asn.1/asn.1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/asterisk/asterisk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/brainfuck/brainfuck.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/clike/clike.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/clojure/clojure.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/cmake/cmake.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/cobol/cobol.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/coffeescript/coffeescript.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/commonlisp/commonlisp.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/crystal/crystal.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/css/css.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/cypher/cypher.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/d/d.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/dart/dart.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/diff/diff.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/django/django.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/dockerfile/dockerfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/dtd/dtd.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/dylan/dylan.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/ebnf/ebnf.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/ecl/ecl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/eiffel/eiffel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/elm/elm.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/erlang/erlang.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/factor/factor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/fcl/fcl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/forth/forth.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/fortran/fortran.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/gas/gas.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/gfm/gfm.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/gherkin/gherkin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/go/go.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/groovy/groovy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/haml/haml.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/handlebars/handlebars.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/haskell-literate/haskell-literate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/haskell/haskell.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/haxe/haxe.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/htmlembedded/htmlembedded.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/htmlmixed/htmlmixed.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/http/http.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/idl/idl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/javascript/javascript.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/jinja2/jinja2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/jsx/jsx.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/julia/julia.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/livescript/livescript.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/lua/lua.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/markdown/markdown.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/mathematica/mathematica.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/mbox/mbox.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/meta.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/mirc/mirc.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/mllike/mllike.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/modelica/modelica.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/mscgen/mscgen.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/mumps/mumps.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/nginx/nginx.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/nsis/nsis.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/ntriples/ntriples.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/octave/octave.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/oz/oz.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/pascal/pascal.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/pegjs/pegjs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/perl/perl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/php/php.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/pig/pig.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/powershell/powershell.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/properties/properties.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/protobuf/protobuf.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/pug/pug.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/puppet/puppet.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/python/python.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/q/q.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/r/r.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/rpm/rpm.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/rst/rst.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/ruby/ruby.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/rust/rust.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/sas/sas.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/sass/sass.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/scheme/scheme.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/shell/shell.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/sieve/sieve.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/slim/slim.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/smalltalk/smalltalk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/smarty/smarty.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/solr/solr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/soy/soy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/sparql/sparql.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/spreadsheet/spreadsheet.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/sql/sql.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/stex/stex.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/stylus/stylus.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/swift/swift.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/tcl/tcl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/textile/textile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/tiddlywiki/tiddlywiki.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/tiddlywiki/tiddlywiki.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/tiki/tiki.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/tiki/tiki.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/toml/toml.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/tornado/tornado.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/troff/troff.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/ttcn-cfg/ttcn-cfg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/ttcn/ttcn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/turtle/turtle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/twig/twig.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/vb/vb.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/vbscript/vbscript.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/velocity/velocity.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/verilog/verilog.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/vhdl/vhdl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/vue/vue.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/webidl/webidl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/xml/xml.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/xquery/xquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/yacas/yacas.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/yaml-frontmatter/yaml-frontmatter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/yaml/yaml.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/mode/z80/z80.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/theme/3024-day.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/theme/3024-night.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/theme/abcdef.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/theme/ambiance-mobile.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/theme/ambiance.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/theme/base16-dark.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/theme/base16-light.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/theme/bespin.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/theme/blackboard.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/theme/cobalt.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/theme/colorforth.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/theme/dracula.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/theme/duotone-dark.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/theme/duotone-light.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/theme/eclipse.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/theme/elegant.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/theme/erlang-dark.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/theme/hopscotch.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/theme/icecoder.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/theme/isotope.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/theme/lesser-dark.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/theme/liquibyte.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/theme/material.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/theme/mbo.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/theme/mdn-like.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/theme/midnight.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/theme/monokai.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/theme/neat.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/theme/neo.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/theme/night.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/theme/panda-syntax.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/theme/paraiso-dark.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/theme/paraiso-light.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/theme/pastel-on-dark.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/theme/railscasts.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/theme/rubyblue.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/theme/seti.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/theme/solarized.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/theme/the-matrix.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/theme/tomorrow-night-bright.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/theme/tomorrow-night-eighties.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/theme/ttcn.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/theme/twilight.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/theme/vibrant-ink.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/theme/xq-dark.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/theme/xq-light.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/theme/yeti.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/codemirror-minified/theme/zenburn.css" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cocoding" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config/config.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/routes/api-routes.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/jquery-resizable.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/database.js" afterPath="$PROJECT_DIR$/config/database.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/controller.js" afterPath="$PROJECT_DIR$/controllers/controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/jaycen.css" afterPath="$PROJECT_DIR$/public/css/jaycen.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/landingpage.css" afterPath="$PROJECT_DIR$/public/css/landingpage.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/shelbystyle.css" afterPath="$PROJECT_DIR$/public/css/shelbystyle.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jaycen.js" afterPath="$PROJECT_DIR$/public/js/jaycen.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.js" afterPath="$PROJECT_DIR$/server.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/layouts/main.handlebars" afterPath="$PROJECT_DIR$/views/layouts/main.handlebars" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rethinkdb_data/log_file" afterPath="$PROJECT_DIR$/rethinkdb_data/log_file" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/classrooms.handlebars" afterPath="$PROJECT_DIR$/views/classrooms.handlebars" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/companies.handlebars" afterPath="$PROJECT_DIR$/views/companies.handlebars" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/landingpage.handlebars" afterPath="$PROJECT_DIR$/views/landingpage.handlebars" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/room.handlebars" afterPath="$PROJECT_DIR$/views/room.handlebars" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/roomlist.handlebars" afterPath="$PROJECT_DIR$/views/roomlist.handlebars" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/terminal copy.handlebars" afterPath="$PROJECT_DIR$/views/terminal copy.handlebars" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/terminal.handlebars" afterPath="$PROJECT_DIR$/views/terminal.handlebars" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -277,12 +30,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="controller.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/controllers/controller.js">
+      <file leaf-file-name="opentok.handlebars" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/opentok.handlebars">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="18" column="6" lean-forward="true" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+            <state relative-caret-position="360">
+              <caret line="20" column="9" lean-forward="false" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="landingpage.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/css/landingpage.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="615">
+              <caret line="268" column="21" lean-forward="false" selection-start-line="268" selection-start-column="21" selection-end-line="268" selection-end-column="21" />
+              <folding>
+                <element signature="e#2302#2530#2" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -290,54 +55,18 @@
       <file leaf-file-name="roomlist.handlebars" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/roomlist.handlebars">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+            <state relative-caret-position="1314">
+              <caret line="73" column="6" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="73" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="terminal.handlebars" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/terminal.handlebars">
+      <file leaf-file-name="landingpage.handlebars" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/landingpage.handlebars">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="546" column="17" lean-forward="false" selection-start-line="546" selection-start-column="17" selection-end-line="546" selection-end-column="17" />
-              <folding>
-                <marker date="1505786151000" expanded="true" signature="28532:28550" ph="..." />
-                <marker date="1505786151000" expanded="true" signature="28532:28921" ph="..." />
-                <marker date="1505786151000" expanded="true" signature="34080:34089" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="landingpage.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/css/landingpage.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-              <folding>
-                <element signature="e#2249#2477#2" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jaycen.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/js/jaycen.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-354">
-              <caret line="1" column="19" lean-forward="false" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="shelbystyle.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/css/shelbystyle.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1098">
-              <caret line="61" column="12" lean-forward="false" selection-start-line="61" selection-start-column="12" selection-end-line="61" selection-end-column="12" />
+            <state relative-caret-position="3186">
+              <caret line="177" column="0" lean-forward="false" selection-start-line="177" selection-start-column="0" selection-end-line="177" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -346,9 +75,43 @@
       <file leaf-file-name="classrooms.handlebars" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/classrooms.handlebars">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="94">
-              <caret line="49" column="20" lean-forward="false" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="77" />
+            <state relative-caret-position="1962">
+              <caret line="109" column="6" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="109" selection-end-column="6" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="companies.handlebars" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/companies.handlebars">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="12" column="10" lean-forward="false" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="room.handlebars" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/room.handlebars">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="11" column="10" lean-forward="false" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="terminal.handlebars" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/terminal.handlebars">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="28" column="16" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="16" />
+              <folding>
+                <element signature="n#nav#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -356,8 +119,18 @@
       <file leaf-file-name="terminal copy.handlebars" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/terminal copy.handlebars">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
-              <caret line="36" column="4" lean-forward="false" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="40" />
+            <state relative-caret-position="5148">
+              <caret line="286" column="12" lean-forward="false" selection-start-line="286" selection-start-column="12" selection-end-line="286" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jquery-resizable.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/js/jquery-resizable.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -367,24 +140,11 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>chat</find>
-      <find>h4</find>
-      <find>coCod</find>
-      <find>button-coll</find>
-      <find>button-collap</find>
-      <find>button-colla</find>
-      <find>collap</find>
-      <find>slide-out</find>
-      <find>create room</find>
-      <find>nav</find>
-      <find>/room</find>
-      <find>/termina</find>
       <find>faceb</find>
       <find>facebook</find>
       <find>/terminal</find>
       <find>chatForm</find>
       <find>class=&quot;modal</find>
-      <find>code</find>
       <find>signup</find>
       <find>loginModal</find>
       <find>bla</find>
@@ -397,7 +157,23 @@
       <find>editor-value</find>
       <find>button-collapse</find>
       <find>av</find>
+      <find>text</find>
+      <find>editor-VAL</find>
+      <find>pr</find>
+      <find>codee</find>
+      <find>codemirror</find>
+      <find>scro</find>
+      <find>code</find>
+      <find>pre</find>
+      <find>preview</find>
+      <find>cocodinglive</find>
+      <find>coCodingLive</find>
+      <find>cocoding</find>
+      <find>panel-</find>
     </findStrings>
+    <replaceStrings>
+      <replace>cocoding</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -424,20 +200,22 @@
         <option value="$PROJECT_DIR$/public/js/jaycen.html" />
         <option value="$PROJECT_DIR$/views/opentok.handlebars" />
         <option value="$PROJECT_DIR$/schema.sql" />
-        <option value="$PROJECT_DIR$/public/css/jaycen.css" />
         <option value="$PROJECT_DIR$/views/layouts/jaycen.handlebars" />
         <option value="$PROJECT_DIR$/views/layouts/main.handlebars" />
-        <option value="$PROJECT_DIR$/views/companies.handlebars" />
-        <option value="$PROJECT_DIR$/views/landingpage.handlebars" />
-        <option value="$PROJECT_DIR$/public/css/shelbystyle.css" />
-        <option value="$PROJECT_DIR$/views/classrooms.handlebars" />
-        <option value="$PROJECT_DIR$/config/database.js" />
         <option value="$PROJECT_DIR$/config/passport.js" />
+        <option value="$PROJECT_DIR$/controllers/controller.js" />
+        <option value="$PROJECT_DIR$/views/terminal copy.handlebars" />
+        <option value="$PROJECT_DIR$/config/database.js" />
+        <option value="$PROJECT_DIR$/public/css/jaycen.css" />
+        <option value="$PROJECT_DIR$/public/js/jaycen.js" />
+        <option value="$PROJECT_DIR$/views/landingpage.handlebars" />
+        <option value="$PROJECT_DIR$/views/classrooms.handlebars" />
+        <option value="$PROJECT_DIR$/views/companies.handlebars" />
+        <option value="$PROJECT_DIR$/views/room.handlebars" />
         <option value="$PROJECT_DIR$/views/roomlist.handlebars" />
+        <option value="$PROJECT_DIR$/public/css/shelbystyle.css" />
         <option value="$PROJECT_DIR$/public/css/landingpage.css" />
         <option value="$PROJECT_DIR$/views/terminal.handlebars" />
-        <option value="$PROJECT_DIR$/public/js/jaycen.js" />
-        <option value="$PROJECT_DIR$/controllers/controller.js" />
       </list>
     </option>
   </component>
@@ -460,7 +238,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="13" />
-    <option name="y" value="52" />
+    <option name="y" value="61" />
     <option name="width" value="1400" />
     <option name="height" value="785" />
   </component>
@@ -505,16 +283,6 @@
             <path>
               <item name="cocoding" type="b2602c69:ProjectViewProjectNode" />
               <item name="cocoding" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cocoding" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cocoding" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cocoding" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cocoding" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -538,8 +306,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -550,6 +318,9 @@
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/js" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/views" />
       <recent name="$PROJECT_DIR$/views/" />
@@ -581,39 +352,45 @@
       <workItem from="1504106274099" duration="70803000" />
       <workItem from="1504554233928" duration="1643000" />
       <workItem from="1504558632847" duration="147566000" />
-      <workItem from="1505324450614" duration="80727000" />
+      <workItem from="1505324450614" duration="166799000" />
+      <workItem from="1507675148376" duration="1475000" />
+      <workItem from="1507676740929" duration="327000" />
+      <workItem from="1507677134230" duration="46000" />
+      <workItem from="1507677209323" duration="9155000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="300739000" />
+    <option name="totallyTimeSpent" value="397814000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="13" y="52" width="1400" height="785" extended-state="0" />
-    <editor active="true" />
+    <frame x="13" y="61" width="1400" height="785" extended-state="0" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26086956" sideWeight="0.17571428" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18092567" sideWeight="0.21428572" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32819074" sideWeight="0.80785716" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32819074" sideWeight="0.81214285" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26086956" sideWeight="0.8242857" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18357143" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18092567" sideWeight="0.78571427" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15785715" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="MaxCompute Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="MaxCompute Job" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="MaxCompute Job Explorer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="MaxCompute Project Explorer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Salesforce" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -629,35 +406,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/routes/api-routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/layouts/main.handlebars">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="116" lean-forward="false" selection-start-line="9" selection-start-column="3" selection-end-line="10" selection-end-column="116" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.handlebars">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="58" lean-forward="false" selection-start-line="19" selection-start-column="58" selection-end-line="19" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/passport.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1008">
           <caret line="56" column="6" lean-forward="true" selection-start-line="56" selection-start-column="6" selection-end-line="56" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -704,7 +456,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="82" column="33" lean-forward="true" selection-start-line="82" selection-start-column="33" selection-end-line="82" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -713,35 +464,11 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/signupbox.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2160">
-          <caret line="133" column="23" lean-forward="true" selection-start-line="133" selection-start-column="23" selection-end-line="133" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/jaycen.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/models/index.js" />
     <entry file="file://$PROJECT_DIR$/public/js/shelby.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-282">
           <caret line="38" column="32" lean-forward="true" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -749,71 +476,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/api-routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/layouts/main.handlebars">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="19" column="4" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/api-routes.js" />
     <entry file="file://$PROJECT_DIR$/views/layouts/jaycen.handlebars">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2">
           <caret line="4" column="41" lean-forward="true" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/collab.handlebars">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.handlebars">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="45" column="9" lean-forward="true" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/opentok.handlebars">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="36" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/room.handlebars">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -821,109 +491,123 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="31" column="24" lean-forward="false" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/config.json" />
+    <entry file="file://$PROJECT_DIR$/public/js/jaycen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="79" column="43" lean-forward="false" selection-start-line="79" selection-start-column="43" selection-end-line="79" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="19" lean-forward="false" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/codeEditor.handlebars">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="60" column="87" lean-forward="false" selection-start-line="60" selection-start-column="87" selection-end-line="60" selection-end-column="87" />
-          <folding />
+        <state relative-caret-position="109">
+          <caret line="68" column="37" lean-forward="false" selection-start-line="68" selection-start-column="37" selection-end-line="68" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/companies.handlebars">
+    <entry file="file://$PROJECT_DIR$/views/collab.handlebars">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="180" column="44" lean-forward="true" selection-start-line="180" selection-start-column="44" selection-end-line="180" selection-end-column="44" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.handlebars">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="45" column="9" lean-forward="false" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/layouts/main.handlebars">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="45" column="67" lean-forward="true" selection-start-line="45" selection-start-column="67" selection-end-line="45" selection-end-column="67" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/schema.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="2" lean-forward="false" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/passport.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1584">
-          <caret line="88" column="0" lean-forward="false" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="306">
+          <caret line="17" column="2" lean-forward="true" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="33" column="37" lean-forward="false" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
-          <folding />
+        <state relative-caret-position="179">
+          <caret line="59" column="23" lean-forward="true" selection-start-line="59" selection-start-column="23" selection-end-line="59" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/roomlist.handlebars">
+    <entry file="file://$PROJECT_DIR$/controllers/controller.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="442">
+          <caret line="250" column="0" lean-forward="true" selection-start-line="250" selection-start-column="0" selection-end-line="250" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/landingpage.handlebars">
+    <entry file="file://$PROJECT_DIR$/config/database.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="216" column="78" lean-forward="true" selection-start-line="216" selection-start-column="78" selection-end-line="216" selection-end-column="78" />
-          <folding />
+        <state relative-caret-position="324">
+          <caret line="18" column="1" lean-forward="false" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/passport.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-452">
+          <caret line="17" column="34" lean-forward="false" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/jaycen.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="26" column="17" lean-forward="false" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/signupbox.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="177" column="25" lean-forward="false" selection-start-line="177" selection-start-column="25" selection-end-line="177" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/css/shelbystyle.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1098">
-          <caret line="61" column="12" lean-forward="false" selection-start-line="61" selection-start-column="12" selection-end-line="61" selection-end-column="12" />
-          <folding />
+        <state relative-caret-position="367">
+          <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/classrooms.handlebars">
+    <entry file="file://$PROJECT_DIR$/node_modules/jquery-resizable-dom/readme.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="49" column="20" lean-forward="false" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="77" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/terminal copy.handlebars">
+    <entry file="file://$PROJECT_DIR$/node_modules/jquery-resizable-dom/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="36" column="4" lean-forward="false" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="40" />
-          <folding />
+        <state relative-caret-position="-733">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/landingpage.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding>
-            <element signature="e#2249#2477#2" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/config.json">
+    <entry file="file://$PROJECT_DIR$/public/js/jquery-resizable.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -931,31 +615,81 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/views/landingpage.handlebars">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3186">
+          <caret line="177" column="0" lean-forward="false" selection-start-line="177" selection-start-column="0" selection-end-line="177" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/classrooms.handlebars">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1962">
+          <caret line="109" column="6" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="109" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/companies.handlebars">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="10" lean-forward="false" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/room.handlebars">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="10" lean-forward="false" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/roomlist.handlebars">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1314">
+          <caret line="73" column="6" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="73" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/opentok.handlebars">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="9" lean-forward="false" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/terminal copy.handlebars">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5148">
+          <caret line="286" column="12" lean-forward="false" selection-start-line="286" selection-start-column="12" selection-end-line="286" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/views/terminal.handlebars">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="546" column="17" lean-forward="false" selection-start-line="546" selection-start-column="17" selection-end-line="546" selection-end-column="17" />
+        <state relative-caret-position="187">
+          <caret line="28" column="16" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="16" />
           <folding>
-            <marker date="1505786151000" expanded="true" signature="28532:28550" ph="..." />
-            <marker date="1505786151000" expanded="true" signature="28532:28921" ph="..." />
-            <marker date="1505786151000" expanded="true" signature="34080:34089" ph="..." />
+            <element signature="n#nav#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/jaycen.js">
+    <entry file="file://$PROJECT_DIR$/public/css/landingpage.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-354">
-          <caret line="1" column="19" lean-forward="false" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="18" column="6" lean-forward="true" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
-          <folding />
+        <state relative-caret-position="615">
+          <caret line="268" column="21" lean-forward="false" selection-start-line="268" selection-start-column="21" selection-end-line="268" selection-end-column="21" />
+          <folding>
+            <element signature="e#2302#2530#2" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

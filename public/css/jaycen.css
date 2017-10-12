@@ -1,5 +1,5 @@
 #code {
-    height: 710px;
+    /*height: 710px;*/
     border: solid 1px;
 }
 
@@ -11,7 +11,7 @@
 #preview {
     border: 2px solid;
     background-color: white;
-    min-height: 200px;
+    /*min-height: 200px;*/
 }
 
 li a {

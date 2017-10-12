@@ -18,6 +18,11 @@ nav .brand-logo {
     width: 80px;
 }
 
+#robotsSize2 {
+    height: 65px;
+    width: 75px;
+}
+
 .sideNav  {
     color: white;
     width: 50px;
@@ -25,7 +30,7 @@ nav .brand-logo {
     top: 60px;
     right: 0px;
     bottom: 0;
-    height: 600px;
+    height: 630px;
 
 }
 
@@ -162,12 +167,122 @@ footer.page-footer {
     background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23b8b8b8' fill-opacity='0.4' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
 }
 
-#terminalBg {
-  background-color: lightgrey;
-    height: 500px;
-}
+/*#terminalBg {*/
+  /*background-color: lightgrey;*/
+    /*height: 1000px;*/
+/*}*/
 
 .modal {
     width: 38% !important ;
     max-height: 105% !important;
 }
+
+#preview-form {
+    flex: 0 0 auto;
+    min-height: 200px;
+    min-width: 1000px;
+    height:400px;
+    width: 1390px;
+}
+
+/*#editor-value {*/
+    /*height: 1000px;*/
+/*}*/
+
+.CodeMirror {
+    flex: 0 0 auto;
+    min-height: 200px;
+    min-width: 1000px;
+    height:400px;
+    width: 1390px;
+
+}
+/*.CodeMirror-gutters {*/
+    /*min-height: 400px;*/
+/*}*/
+
+/*#terminalBody {*/
+    /*flex: 0 0 auto;*/
+    /*min-height: 200px;*/
+    /*min-width: 1000px;*/
+    /*height:400px;*/
+    /*width: 1390px;*/
+/*}*/
+
+.panel-container {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid silver;
+    overflow: hidden;
+
+    /* avoid browser level touch actions */
+    xtouch-action: none;
+}
+
+.panel-left {
+    flex: 0 0 auto;
+    /* only manually resize */
+    padding: 10px;
+    width: 200px;
+    min-height: 200px;
+    min-width: 100px;
+    white-space: nowrap;
+    background: #111111;
+    color: white;
+}
+
+.splitter {
+    flex: 0 0 auto;
+    width: 18px;
+    background: url(https://raw.githubusercontent.com/RickStrahl/jquery-resizable/master/assets/vsizegrip.png) center center no-repeat #535353;
+    min-height: 500px;
+    cursor: col-resize;
+}
+
+.panel-right {
+    flex: 1 1 auto;
+    /* resizable */
+    /*padding: 10px;*/
+    /*width: 100%;*/
+    /*min-height: 200px;*/
+    /*min-width: 200px;*/
+    /*background: #eee;*/
+}
+
+.panel-container-vertical {
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*!*height: 500px;*!*/
+    /*border: 1px solid silver;*/
+    /*overflow: hidden;*/
+    background-color: black;
+}
+
+.panel-top {
+    flex: 0 0 auto;
+    /* only manually resize */
+    /*padding: 10px;*/
+    /*height: 150px;*/
+    /*width: 100%;*/
+    /*white-space: nowrap;*/
+    /*background: #838383;*/
+    /*color: white;*/
+
+}
+
+.splitter-horizontal {
+    flex: 0 0 auto;
+    height: 18px;
+    background: url(https://raw.githubusercontent.com/RickStrahl/jquery-resizable/master/assets/hsizegrip.png) center center no-repeat #535353;
+    cursor: row-resize;
+}
+
+.panel-bottom {
+    flex: 1 1 auto;
+    /* resizable */
+    padding: 10px;
+    min-height: 150px;
+    height: 200px;
+    background: grey;
+}
+

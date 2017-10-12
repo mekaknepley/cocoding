@@ -3,6 +3,7 @@
     var editor = CodeMirror.fromTextArea(code, {
         lineNumbers: true,
         lineWrapping: true,
+        viewportMargin: Infinity,
         showCursorWhenSelecting: true,
         theme: "rubyblue",
         keymap: 'sublime',
@@ -80,7 +81,7 @@
 		var cursorCh = cursor.ch;
 		//sets the value of the editor to the contents from the db
         editor.getDoc().setValue(data);
-		
+
 		console.log(" cl: " + cursorLine + " ch: " + cursorCh);
 		//sets the cursor to the line and cursor: Stops the editor from resetting the position of the cursor.
 		editor.setCursor({line: cursorLine, ch:cursorCh});

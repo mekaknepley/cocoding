@@ -1,6 +1,6 @@
 body {
     display: flex;
-    min-height: 100vh;
+    /*min-height: 100vh;*/
     flex-direction: column;
     background: #cfd8dc;
     color: white;
@@ -64,7 +64,7 @@ body {
     border-color:#01579b;
     border-width: 3px;
     background:black;
-    height:450px;
+    /*height:450px;*/
   }
 
   .liveTerminal {
@@ -73,9 +73,10 @@ body {
     border-width: 3px;
     background:white;
     color: black;
-    height:450px;
+    /*height:450px;*/
   }
 
   #isSignDiv {
     width: 300px;
   }
+
