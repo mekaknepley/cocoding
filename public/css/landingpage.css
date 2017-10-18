@@ -30,7 +30,8 @@ nav .brand-logo {
     top: 60px;
     right: 0px;
     bottom: 0;
-    height: 630px;
+    height: 730px;
+    z-index: 3;
 
 }
 
@@ -178,11 +179,11 @@ footer.page-footer {
 }
 
 #preview-form {
-    flex: 0 0 auto;
-    min-height: 200px;
-    min-width: 1000px;
-    height:400px;
-    width: 1390px;
+    /*flex: 0 0 auto;*/
+    /*min-height: 200px;*/
+    /*min-width: 1000px;*/
+    /*height:400px;*/
+    /*width: 1390px;*/
 }
 
 /*#editor-value {*/
@@ -190,12 +191,16 @@ footer.page-footer {
 /*}*/
 
 .CodeMirror {
-    flex: 0 0 auto;
-    min-height: 200px;
-    min-width: 1000px;
-    height:400px;
-    width: 1390px;
-
+    height: auto;
+    overflow: hidden;
+    /*flex: 0 0 auto;*/
+    /*!*min-height: 200px;*!*/
+    /*min-width: 1000px;*/
+    /*height:400px;*/
+    /*width: 1390px;*/
+}
+.CodeMirror-scroll {
+    height: auto;
 }
 /*.CodeMirror-gutters {*/
     /*min-height: 400px;*/
@@ -214,6 +219,7 @@ footer.page-footer {
     flex-direction: row;
     border: 1px solid silver;
     overflow: hidden;
+    height: 100vh;
 
     /* avoid browser level touch actions */
     xtouch-action: none;
@@ -247,27 +253,30 @@ footer.page-footer {
     /*min-height: 200px;*/
     /*min-width: 200px;*/
     /*background: #eee;*/
+    height: 100vw;
 }
 
 .panel-container-vertical {
-    /*display: flex;*/
-    /*flex-direction: column;*/
+    display: flex;
+    flex-direction: column;
     /*!*height: 500px;*!*/
     /*border: 1px solid silver;*/
-    /*overflow: hidden;*/
+    overflow: hidden;
     background-color: black;
+    height: 100vh;
 }
 
 .panel-top {
     flex: 0 0 auto;
     /* only manually resize */
     /*padding: 10px;*/
-    /*height: 150px;*/
+    height: 400px;
+    min-height: 100px;
     /*width: 100%;*/
     /*white-space: nowrap;*/
     /*background: #838383;*/
     /*color: white;*/
-
+    overflow: hidden;
 }
 
 .splitter-horizontal {
@@ -282,7 +291,6 @@ footer.page-footer {
     /* resizable */
     padding: 10px;
     min-height: 150px;
-    height: 200px;
-    background: grey;
+    background: #111111;
 }
 

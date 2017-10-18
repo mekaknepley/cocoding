@@ -3,7 +3,7 @@
     var editor = CodeMirror.fromTextArea(code, {
         lineNumbers: true,
         lineWrapping: true,
-        viewportMargin: Infinity,
+        viewportMargin: 10,
         showCursorWhenSelecting: true,
         theme: "rubyblue",
         keymap: 'sublime',
